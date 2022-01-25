@@ -6,7 +6,7 @@
 html {
     scroll-behavior: smooth;
   }
-a, header img, header li, #btn-mobile, #btn-mobile span{
+a, header img, header li, #btn-mobile, #btn-mobile span, #pageMap, #pageMap li{
     cursor: url(/assets/img/raiz/Wii_Cursor.cur),default;
 }
 
@@ -179,7 +179,6 @@ header nav a:hover{
     margin-top: 10px;
 }
 #pageMap, #pageMap li{
-    cursor: url(/assets/img/raiz/Wii_Cursor.cur),default;
     list-style: disc inside;
 }
 
