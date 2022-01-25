@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=86223),default;
+}
+html {
+    scroll-behavior: smooth;
+  }
+a, header img, header li, #btn-mobile, #btn-mobile span{
+    cursor: url(/assets/img/raiz/Wii_Cursor.cur),default;
+}
+
+/* ------------------------------------------------------CABECALHO--------------------------------- */
+#logo{
+    height: 80px;
+}
+
+header{
+    align-items: center;
+    padding: 5px;
+    border-bottom: gold 5px solid;
+    background-image: linear-gradient(to top left, #005ac7,#009bb3);
+}
+
+header nav {
+    display: inline-flex;
+    gap: .5rem;
+    float: right;
+}
+header nav a{
+    padding: .5rem .9rem;
+    border: transparent 3px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: ease-in-out .3s;
+}
+
+header nav a:hover{
+    color: #000;
+    background:rgb(241, 241, 241);
+    border-bottom:2px solid rgb(255, 208, 0);
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.411);
+    transition: ease-in-out .3s;
+    font-size: 1.3em;
+    letter-spacing: .1px;
+    text-decoration: none;
+}
+/* --------------------------------------------------------MENU MOBILE--------------------------- */
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a{
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile{
+    display: none;
+    
+}
+
+@media (min-width: 0px) and  (max-width:800px){
+
+
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        background: #383838;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        right: 0;
+    }
+    #nav.active #menu{
+        height: calc(50vh);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-radius: initial;
+        border-bottom: 2px solid rgba(131, 130, 130, 0.349);
+    }
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        right: 0;
+    }
+    #hamburguer{
+        width: 20px;
+        border-top: 2px solid;
+        color: #fff;
+
+    }
+    #hamburguer::after, #hamburguer::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburguer{
+        border-top-color:transparent
+    }
+    #nav.active #hamburguer::before{
+        transform:rotate(45deg);
+    }
+    #nav.active #hamburguer::after{
+        transform:rotate(-45deg);
+        top: -7px;
+    }
+}
+
+
+/* ------------------------------------------------------MAIN--------------------------------- */
+.main{
+    text-align: center;
+    background-color: #e2e2e2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.conteudo{
+    background: #fff;
+    padding: 30px;
+
+}
+
+/* ------------------------------------------------------PAGEMAP--------------------------------- */
+#coluna-1{
+    padding: 0;
+}
+#btnPageMap{
+
+    background-color: rgb(22, 152, 228);
+    border-radius: 5px;
+    width:30px;
+    height: 50px;
+    margin:0;
+    padding: 0;
+    left: 0;
+    position: fixed;
+}
+
+#boxPageMap{
+    border-radius: 5px;
+    background-color: #444444;
+    float: left;
+    position: fixed;
+    margin: 0;
+    z-index: 1000;
+    width: 230px;
+    transition: ease .3s; 
+    margin-top:20vh;
+    left: -230px;
+}
+
+#pageMap{
+    text-align: left;
+    line-height: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#pageMap, #pageMap li{
+    cursor: url(/assets/img/raiz/Wii_Cursor.cur),default;
+    list-style: disc inside;
+}
+
+
+#pageMap a{
+    color: cornsilk;
+}
+
+#pageMap a:visited{
+    color: cornsilk;
+}
+
+#boxPageMap:hover{
+    left: 30px; 
+    transition: ease .3s; 
+}
+#btnPageMap:hover{
+    background-color: rgba(22, 152, 228, 0.767);  
+
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------RODAPE--------------------------------- */
+.rodape{
+    text-align: center;
+    background: #696969;
+    border-top: rgb(24, 24, 24) 6px solid;
+    color: white;
+}
+.rodape a, .rodape a:visited, .rodape a:hover{
+    text-decoration: none;
+    color: white;
+}
+.rodape a:hover{
+    transition:ease-in .3s;
+    color: rgb(0, 37, 158);
+}
+
+footer{
+    padding-top: 30px;
+    line-height: 10px;
+}
+

@@ -1,0 +1,119 @@
+<!---------------------------------------------------------TEXTO--------------------------------------------------------->
+                    <section class="artigos">
+                        <h1> <a name="oquesaoroms"></a> O que são roms?</h1>
+                        <div id="artigoRoms">
+                            <article>
+                                <p>A memória somente de leitura ou <b>ROM</b> (acrônimo em inglês de read-only memory) é
+                                    um tipo
+                                    de memória
+                                    que permite apenas a leitura, ou seja, as suas informações são gravadas pelo
+                                    fabricante uma
+                                    única vez e
+                                    após isso não podem ser alteradas ou apagadas, somente acessadas. São memórias cujo
+                                    conteúdo
+                                    é gravado
+                                    permanentemente.</p>
+                                <p>Uma memória somente de leitura propriamente dita vem com seu conteúdo gravado durante
+                                    a
+                                    fabricação.
+                                    Atualmente, o termo Memória ROM é usado informalmente para indicar uma gama de tipos
+                                    de
+                                    memória que são
+                                    usadas apenas para a leitura na operação principal de dispositivos eletrônicos
+                                    digitais, mas
+                                    possivelmente podem ser escritas por meio de mecanismos especiais. Entre esses tipos
+                                    encontramos as
+                                    <b>PROM</b>, as <b>EPROM</b>, as <b>EEPROM</b> e as memórias <b>flash</b>. Ainda de
+                                    forma
+                                    mais ampla, e
+                                    de certa forma imprópria, dispositivos de memória terciária, <b>CD-ROMs</b>,
+                                    <b>DVD-ROMs</b>, etc.,
+                                    também são algumas vezes citados como memória ROM.
+                                </p>
+                            </article>
+                            <figure>
+                                <img src="assets/img/home/rom.jpg" alt="Chip rom">
+                                <figcaption>Fonte: Wikipédia</figcaption>
+                            </figure>
+                        </div>
+
+                        <h1><a name="oquesaoemuladores"></a>O que são emuladores?</h1>
+                        
+                        <div id="artigoEmuladores">
+                            <figure>
+                                <img src="assets/img/home/emuladores.jpg" alt="Emulador de PSP">
+                                <figcaption>Fonte:Oficina da Net</figcaption>
+                            </figure>
+                            <article>
+                                <p>Emuladores são uma classe de software de computador que permite a um sistema operacional
+                                    simular um
+                                    sistema operacional diferente, a fim de executar um aplicativo destinado a este outro
+                                    sistema.</p>
+                                <p>
+                                    O conceito de <b> emulação</b> de computador foi concebido pela <b>IBM</b> como uma
+                                    forma de
+                                    executar programas
+                                    projetados para seus dispositivos mais antigos em modelos mais recentes. O método
+                                    utilizado
+                                    pela empresa
+                                    dependia de uma combinação de software e hardware dedicado à emulação. Em vez de
+                                    projetar
+                                    novos
+                                    aplicativos para seus novos computadores, a compatibilidade com versões anteriores deu
+                                    aos
+                                    desenvolvedores maior flexibilidade.
+                                </p>
+                                <p>
+                                    Hoje, o termo emulador é comumente usado no contexto de videogames. Os <b>emuladores de
+                                        videogame</b> se
+                                    tornaram populares durante a década de 1990, porque permitiam que as pessoas pudessem
+                                    jogar
+                                    títulos de
+                                    consoles mais antigos em desktops modernos. Com a proliferação de smartphones e tablets,
+                                    os
+                                    emuladores
+                                    capazes de rodar iOS ou Android em PCs também ganharam muitos adeptos.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+
+                    <!------------------------------------------------- VIDEOS------------------------------------------------------>
+                    <section class="videos">
+                        <h2><a name="videos"></a>Videos e Podcasts</h2>
+                        <div>
+                            <h3>Melhores Jogos de Super Nintendo</h3>
+                            <iframe  src="https://www.youtube.com/embed/1_ju7aly4i8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div>
+                            <h3>A Importância da emulação no Mundo dos Games!</h3>
+                            <iframe  src="https://www.youtube.com/embed/XUDbvaZBX9w"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div>
+                            <h3>Introdução a Videogames e Emuladores</h3>
+                            <iframe  src="https://www.youtube.com/embed/vUqLLpUJ47s"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div>
+                            <h3>Emulação vs Pirataria | Minicastle Org</h3>
+                            <iframe src="https://www.youtube.com/embed/oI-4kSrg_UI"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+
+                        <div class="podcasts">
+                            <h3>Roms Hack | Fliperama de Boteco</h3>
+                            <iframe id="fdb" src="https://open.spotify.com/embed/episode/5sPG1W0S5kmalxYi45dfM3?utm_source=generator" width="560" height="315" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        </div>
+
+                    </section>

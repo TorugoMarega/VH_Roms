@@ -1,0 +1,106 @@
+/* ------------------------------------------------------ARTIGOS--------------------------------- */
+article{
+    text-align: justify;
+}
+
+article p {
+    text-indent: 3ch;
+}
+
+#artigoRoms, #artigoEmuladores{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#artigoRoms img{
+    width: 400px;
+}
+
+#artigoEmuladores img{
+    width: 400px;
+    height: 300px;
+}
+
+@media (min-width: 0px) and (max-width: 992px){
+    #artigoRoms, #artigoEmuladores{
+        margin: 0 auto;
+        padding: 10px;
+        width: 100%;
+    }
+    #artigoRoms img, #artigoEmuladores img{
+        width: 100%;
+    }
+
+
+}
+@media (min-width:992px) {
+    #artigoRoms{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between;
+    }
+    #artigoEmuladores{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        }
+}
+/* ------------------------------------------------------VIDEOS--------------------------------- */
+
+.videos div{
+margin-top: 50px;
+margin-bottom: 60px;
+}
+
+.videos h3{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.videos iframe{
+    border: gold 7px solid;
+    border-radius: 10px;
+    background-color: gold;
+}
+
+#fdb{
+    background-color: #086088;
+    padding-top: 10px;
+}
+
+@media (min-width:0px){
+    .videos iframe{
+        width: 100%;
+        height: 15rem;
+    }
+
+    .videos h2{
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 600px){
+    .videos iframe{
+        width: 80%;
+        height: 20rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+    .videos iframe{
+        width: 70%;
+        height: 25rem;
+    }
+
+}
+
+@media (min-width: 1200px){
+    
+    .videos iframe{
+        width: 50%;
+        height: 25rem;
+    }
+}
