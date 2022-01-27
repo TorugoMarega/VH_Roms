@@ -10,6 +10,23 @@ a, header img, header li, #btn-mobile, #btn-mobile span, #pageMap, #pageMap li, 
     cursor: url(Wii_Cursor.cur),default;
 }
 
+
+
+/* ----------------------------------------SMOOTH LOADING TRANSITION--------------------------------------------- */
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 /* ------------------------------------------------------CABECALHO--------------------------------- */
 #logo{
     height: 80px;
