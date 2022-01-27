@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=86223),default;
+    cursor: url(blinky.cur),default;
 }
 html {
     scroll-behavior: smooth;
   }
-a, header img, header li, #btn-mobile, #btn-mobile span, #pageMap, #pageMap li{
-    cursor: url(/assets/img/raiz/Wii_Cursor.cur),default;
+a, header img, header li, #btn-mobile, #btn-mobile span, #pageMap, #pageMap li, #btnPageMap i{
+    cursor: url(Wii_Cursor.cur),default;
 }
 
 /* ------------------------------------------------------CABECALHO--------------------------------- */
@@ -139,7 +139,8 @@ header nav a:hover{
 .conteudo{
     background: #fff;
     padding: 30px;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* ------------------------------------------------------PAGEMAP--------------------------------- */
@@ -179,9 +180,11 @@ header nav a:hover{
     margin-top: 10px;
 }
 #pageMap, #pageMap li{
-    list-style: disc inside;
+    list-style: none;
 }
-
+#pageMap li{
+    border-bottom: rgba(255, 255, 255, 0.096) 1px solid;
+}
 
 #pageMap a{
     color: cornsilk;
@@ -199,10 +202,6 @@ header nav a:hover{
     background-color: rgba(22, 152, 228, 0.767);  
 
 }
-
-
-/* ------------------------------------------------------------------------------------------------ */
-
 
 /* ------------------------------------------------------RODAPE--------------------------------- */
 .rodape{
@@ -225,3 +224,20 @@ footer{
     line-height: 10px;
 }
 
+
+
+
+
+
+/* -----------------------------TESTE-------------------- */
+.azul{
+    background-color: turquoise;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelho{
+    background-color: red;
+}

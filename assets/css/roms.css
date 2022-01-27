@@ -1,0 +1,90 @@
+.tituloPrincipal {
+    margin-bottom: 80px;
+    font-size:70px;
+}
+
+.titulo{
+    margin-bottom: 40px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    transition: ease-in-out .2s;
+    padding-bottom:11px;
+    border-bottom: rgba(54, 54, 54, 0.164) 3px solid;
+
+}
+
+.titulo:hover{
+    letter-spacing: .08em;
+    color: rgb(255, 54, 47);
+    transition: ease-in-out .2s;
+}
+
+.catalogo{
+   /*  border: 1px solid black; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.rom{
+    border: 2px solid rgb(93, 93, 93);
+    background-color: rgba(195, 195, 195, 0.513);
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    transition: ease-in-out .3s;
+    width: 285px;
+    height: 380px;
+}
+.rom:hover{
+    transition: ease-in-out .3s;
+    transform: scale(1.05, 1.05);
+    background-color: #0080BB;
+    color: white;
+    border: 2px solid rgb(141, 141, 141);
+}
+.rom:hover img{
+    border: 2px solid rgb(141, 141, 141);
+}
+.rom a{
+    font-size: 20px;
+    margin: 0;
+    color: initial;
+    transition: ease-in-out .3s;
+}
+.rom p{
+    margin: 0;
+}
+.rom:hover a:any-link{
+    color:white;
+    transition: ease-in-out .3s;
+}
+
+.rom img{
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(93, 93, 93);
+    width: 260px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .rom img{
+      width: 100%;
+      height: 100%;
+      transition: ease-in-out .3s;
+  }
+  .rom{
+      padding: 10px 15px;
+      width: 100%;
+      height: 100%;
+  }  
+}
