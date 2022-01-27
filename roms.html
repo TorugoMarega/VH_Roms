@@ -17,6 +17,9 @@
     <!--     BOOTSTRAP CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!--         <script type="module" src="https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js"></script>
+        <script type="module" src="https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js"></script> -->
     <title>VH Roms | Roms</title>
 </head>
 
@@ -68,7 +71,7 @@
                     <section>
                         <h2 class="titulo"><a name="snes"></a><i class="fas fa-gamepad icon"></i> Super Nintendo (SNES)</h2>  
 
-                        <div id="catalogo" class="catalogo">
+                        <div id="catalogoNintendo" class="catalogo">
 
 <!--                             <div class="rom">
                                 <img src="https://images.nintendolife.com/4663ab667452c/super-mario-world-cover.cover_large.jpg" alt="">
@@ -81,9 +84,15 @@
                     </section>
                     <section>
                         <h2 class="titulo"><a name="atari"></a><i class="fas fa-ghost"></i> Atari</h2>
+                        <div id="catalogoAtari" class="catalogo">
+
+                        </div>
                     </section>
                     <section>
                         <h2 class="titulo"><a name="psx"></a><i class="fab fa-playstation"></i> Playstation</h2>
+                        <div id="catalogoPlaystation" class="catalogo">
+                            
+                        </div>
                     </section>
                     
                 </div>
@@ -102,8 +111,9 @@
             </div>
         </div>
     </div>
-
-    <script src="./assets/js/index.js"></script>
-    <script src="./assets/js/roms.js"></script>
+<script src="./assets/js/index.js"></script>
+<script type="module" src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script type="module" src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+<script type="module" src="./assets/js/firebase.js"></script>
 </body>
 </html>

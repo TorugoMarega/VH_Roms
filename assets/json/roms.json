@@ -1,0 +1,218 @@
+{
+    "nintendo": [
+        {
+            "cover": "https://images.nintendolife.com/screenshots/11375/large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/actraiser",
+            "title": "ActRaiser",
+            "publisher": "Square Enix",
+            "year": 1990
+        },
+        {
+            "cover": "https://images.nintendolife.com/4e4ac48fbf2e7/legend-of-zelda-a-link-to-the-past-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/legend_of_zelda_a_link_to_the_past",
+            "title": "The Legend of Zelda: A Link to the Past",
+            "publisher": "Nintendo",
+            "year": 1992
+        },
+        {
+            "cover": "https://images.nintendolife.com/4663ab667452c/super-mario-world-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/reviews/snes/super_mario_world",
+            "title": "Super Mario World",
+            "publisher": "Nintendo",
+            "year": 1991
+        },
+        {
+            "cover": "https://images.nintendolife.com/734c71f790a53/chrono-trigger-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/chrono_trigger",
+            "title": "Chrono Trigger",
+            "publisher": "Square Enix",
+            "year": 1995
+        },
+        {
+            "cover": "https://images.nintendolife.com/e3055d4afdc47/super-metroid-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/super_metroid",
+            "title": "Super Metroid ",
+            "publisher": "Nintendo",
+            "year": 1994
+        },
+        {
+            "cover": "https://images.nintendolife.com/e33024cfb91e3/super-mario-world-2-yoshis-island-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/super_mario_world_2_yoshis_island",
+            "title": " Super Mario World 2: Yoshis Island ",
+            "publisher": "Nintendo",
+            "year": 1995
+        },
+        {
+            "cover": "https://images.nintendolife.com/edbf2d7e54fbb/mega-man-x-cover.cover_300x.jpg",
+            "review": "https://www.nintendolife.com/games/snes/mega_man_x",
+            "title": "Mega Man X",
+            "publisher": "Capcom",
+            "year": 1994
+        },
+        {
+            "cover": "https://images.nintendolife.com/ec78e25e1da36/donkey-kong-country-2-diddys-kong-quest-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/donkey_kong_country_2_diddys_kong_quest",
+            "title": "Donkey Kong Country 2: Diddys Kong Quest",
+            "publisher": "Capcom",
+            "year": 1995
+        },
+        {
+            "cover": "https://images.nintendolife.com/94e6caab1fe8c/earthbound-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/earthbound",
+            "title": "EarthBound ",
+            "publisher": "Nintendo",
+            "year": 1995
+        },
+        {
+            "cover": "https://images.nintendolife.com/15515aacacdda/super-mario-all-stars-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/super_mario_all-stars",
+            "title": "Super Mario All-Stars",
+            "publisher": "Nintendo",
+            "year": 1993
+        },
+        {
+            "cover": "https://images.nintendolife.com/84048de2b576e/donkey-kong-country-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/donkey_kong_country",
+            "title": "Donkey Kong Country",
+            "publisher": "Nintendo",
+            "year": 1994
+        },
+        {
+            "cover": "https://images.nintendolife.com/4b082ba69a735/super-castlevania-iv-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/super_castlevania_iv",
+            "title": "Super Castlevania IV",
+            "publisher": "Konami",
+            "year": 1991
+        },
+        {
+            "cover": "https://images.nintendolife.com/c53da2422aa1d/street-fighter-ii-turbo-hyper-fighting-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/street_fighter_ii_turbo_hyper_fighting",
+            "title": "Street Fighter II Turbo: Hyper Fighting",
+            "publisher": "Capcom",
+            "year": 1993
+        },
+        {
+            "cover": "https://images.nintendolife.com/4f79434c4ef05/secret-of-mana-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/secret_of_mana",
+            "title": "Secret of Mana",
+            "publisher": "Square Enix",
+            "year": 1993
+        },
+        {
+            "cover": "https://images.nintendolife.com/ebdeb9adf637e/goof-troop-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/goof_troop",
+            "title": "Goof Troop",
+            "publisher": "Capcom",
+            "year": 1993
+        },
+        {
+            "cover": "https://images.nintendolife.com/3ab327b4ebd66/kirby-super-star-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/kirby_super_star",
+            "title": "Kirby Super Star",
+            "publisher": "Capcom",
+            "year": 1996
+        },
+        {
+            "cover": "https://images.nintendolife.com/aaedf62e2e897/sunset-riders-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/sunset_riders",
+            "title": "Sunset Riders",
+            "publisher": "Konami",
+            "year": 1993
+        },
+        {
+            "cover": "https://images.nintendolife.com/b8e7818cbd043/super-mario-kart-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/super_mario_kart",
+            "title": "Super Mario Kart",
+            "publisher": "Nintendo",
+            "year": 1992
+        },
+        {
+            "cover": "https://images.nintendolife.com/e1c0ed4af4f36/final-fight-3-cover.cover_large.jpg",
+            "review": "https://www.nintendolife.com/games/snes/final_fight_3_snes",
+            "title": "Final Fight 3",
+            "publisher": "Capcom",
+            "year": 1996
+        },
+        {
+            "cover": "https://s2.glbimg.com/pXVkrXbT5rBCyKv68VzvXb5UrKM=/0x0:913x579/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/l/A/zPe6OzRnitN3F1rd77Gw/captura-de-tela-2020-04-24-as-10.06.52.png",
+            "review": "https://www.techtudo.com.br/listas/2020/04/top-gear-relembre-os-jogos-da-franquia-que-era-sucesso-nos-anos-90.ghtml",
+            "title": "Top Gear 2",
+            "publisher": "Kemco",
+            "year": 1992
+        }
+    ],
+
+    "atari": [
+    {
+        "cover": "https://s2.glbimg.com/zh6PuwmVTBbhABwng8nEDupT9uY=/0x0:905x622/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/Z/d/WsrWPvRfGyTIWuvpMrQg/captura-de-tela-2020-06-11-as-14.28.31.png",
+        "review": "https://en.wikipedia.org/wiki/Laser_Blast",
+        "title": "Laser Blast",
+        "publisher": "Atari",
+        "year": 1981
+    },
+    {
+        "cover": "https://s2.glbimg.com/YxEhHnO3B4H3jOiDmh5-hGecTV0=/0x0:956x574/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/d/4/R2kSBrTmOL96T41lx9Kg/captura-de-tela-2020-06-11-as-14.27.39.png",
+        "review": "https://pt.wikipedia.org/wiki/Adventure_(Atari_2600)",
+        "title": "Adventure",
+        "publisher": "Atari",
+        "year": 1980
+    },
+    {
+        "cover": "https://s2.glbimg.com/rY_ndfLKHx5ZtCG2nmxU3zR3W4Q=/0x0:936x554/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/Z/C/9CptVEScWlAdtrRUycSg/captura-de-tela-2020-06-11-as-14.26.46.png",
+        "review": "https://pt.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(jogo_eletrônico)",
+        "title": "E.T. the Extra-Terrestrial",
+        "publisher": "Atari",
+        "year": 1982
+    },
+    {
+        "cover": "https://s2.glbimg.com/1UQvylltSdlqVyBBiLrUK3BBQ88=/0x0:934x620/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/g/o/xwW3FpS5KAjM3rAZDsWQ/captura-de-tela-2020-06-11-as-14.23.03.png",
+        "review": "https://pt.wikipedia.org/wiki/Demon_Attack",
+        "title": "Demon Attack",
+        "publisher": "Activision",
+        "year": 1982
+    },
+    {
+        "cover": "https://s2.glbimg.com/QLnU8aUnYJw9V2rJBSnsCDEEj-g=/0x0:1008x582/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/b/t/FOpeFcRnqGKIehZ7lBTA/captura-de-tela-2020-06-11-as-14.20.57.png",
+        "review": "https://en.wikipedia.org/wiki/Space_Invaders",
+        "title": "Space Invaders",
+        "publisher": "Atari",
+        "year": 1980
+    },
+    {
+        "cover": "https://s2.glbimg.com/V3Nxvh8K1mMgGFAI2mz0YYbJzKo=/0x0:1112x615/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/l/r/vAx8cMREySLW7WA5LJMg/captura-de-tela-2020-06-11-as-14.21.49.png",
+        "review": "http://www.atari2600.com.br/Atari/Roms/01DN/Frogger",
+        "title": "Frogger",
+        "publisher": "SEGA",
+        "year": 1982
+    },
+    {
+        "cover": "https://s2.glbimg.com/HCSBlZCgzlGiUvDU3qTP4QnTgqc=/0x0:941x634/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/s/E/SnACQTSmGbykKA7RPtZA/captura-de-tela-2020-06-11-as-14.20.15.png",
+        "review": "http://www.atari2600.com.br/Atari/Roms/0Wlu/Missile_Command",
+        "title": "Missile Command",
+        "publisher": "Atari",
+        "year": 1981
+    },
+    {
+        "cover": "https://s2.glbimg.com/pMJco_t25pV_JUasApzi-ojh6HI=/0x0:869x565/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/A/J/h5CcB8RZu04zpBLS0aKw/captura-de-tela-2020-06-11-as-14.19.31.png",
+        "review": "http://www.atari2600.com.br/Atari/Roms/01Zx/Asteroids",
+        "title": "Asteroids",
+        "publisher": "Atari",
+        "year": 1981
+    },
+    {
+        "cover": "https://s2.glbimg.com/5-QdIQpi0L1I6-Qr9nCJLMMUWNE=/0x0:943x622/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/6/g/md4GANQKC83G9B9jsRbQ/captura-de-tela-2020-06-11-as-14.18.19.png",
+        "review": "http://www.atari2600.com.br/Atari/Roms/01Gn/Pitfall",
+        "title": "Pitfall!",
+        "publisher": "Activision",
+        "year": 1981
+    },
+    {
+        "cover": "https://s2.glbimg.com/0VLlZqzWDPQ3I31E_MWpFZe6lCA=/0x0:899x567/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/Y/R/cnajaETQ2Fomv08bDGHg/captura-de-tela-2020-06-11-as-14.17.29.png",
+        "review": "https://pt.wikipedia.org/wiki/Pac-Man_(Atari_2600)",
+        "title": "Pac-Man",
+        "publisher": "Atari",
+        "year": 1982
+    }
+    ]
+}
+

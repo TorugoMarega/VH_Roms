@@ -7,7 +7,7 @@
  */
 //string json
 
-const json = '{"nintendo":['+
+/* const json = '{"nintendo":['+
 
     '{"cover":"https://images.nintendolife.com/screenshots/11375/large.jpg" ,"review":"https://www.nintendolife.com/games/snes/actraiser" ,"title":"ActRaiser","publisher":"Square Enix","year":1990},'+
     
@@ -52,12 +52,16 @@ const json = '{"nintendo":['+
     '{"cover":"https://s2.glbimg.com/pXVkrXbT5rBCyKv68VzvXb5UrKM=/0x0:913x579/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/l/A/zPe6OzRnitN3F1rd77Gw/captura-de-tela-2020-04-24-as-10.06.52.png" ,"review":"https://www.techtudo.com.br/listas/2020/04/top-gear-relembre-os-jogos-da-franquia-que-era-sucesso-nos-anos-90.ghtml" ,"title":"Top Gear 2","publisher":"Kemco","year":1992}'+
 
 ']}' 
+ */
 
 
-var catalogo = document.getElementById("catalogo")
+//var catalogo = document.getElementById("catalogo")
+
+
 
 //a string json é convertida em objeto json
-const rom = JSON.parse(json)
+
+/* const rom = JSON.parse(json)
 var card;
 var allCards = '';
  for (i=0; i<rom.nintendo.length; i++){
@@ -71,4 +75,6 @@ var allCards = '';
 
     allCards += card
     catalogo.innerHTML = allCards
-}
+} */
+
+
