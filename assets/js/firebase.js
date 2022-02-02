@@ -21,6 +21,15 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 var database = firebase.database()
 
+
+/* ------------------objeto-rom--------------
+*  Imagem                                    *
+*  Titulo                                    *
+*  Publisher                                 *
+*  Ano de lançamento                         *
+----------------------------------------------
+ */
+
 //inicializa variaveis dos cartões com uma string vazia
 var allCardsNintendo = '';
 var allCardsAtari = '';
@@ -75,7 +84,7 @@ function getCardAtari(){
 }
 getCardAtari()
 
-
+ 
 //------------------------------------- COM JSON PARSE ------------------------------------------------
 
 //var catalogo = document.getElementById("catalogo")

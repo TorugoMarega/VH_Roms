@@ -14,11 +14,13 @@ article p {
 
 #artigoRoms img{
     width: 400px;
+    border-radius: 8px;
 }
 
 #artigoEmuladores img{
     width: 400px;
     height: 300px;
+    border-radius: 8px;
 }
 
 @media (min-width: 0px) and (max-width: 992px){
@@ -60,9 +62,9 @@ margin-bottom: 60px;
 }
 
 .videos iframe{
-    border: gold 7px solid;
+    border: #F43A3B 7px solid;
     border-radius: 10px;
-    background-color: gold;
+    background-color: #F43A3B;
 }
 
 #fdb{

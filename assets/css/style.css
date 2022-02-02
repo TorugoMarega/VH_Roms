@@ -1,13 +1,12 @@
 @import url(//fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap);
 *{
     font-family: 'Roboto', sans-serif;
-    cursor: url(blinky.cur),default;
 }
 html {
     scroll-behavior: smooth;
   }
 a, header img, header li, #btn-mobile, #btn-mobile span, #pageMap, #pageMap li, #btnPageMap i{
-    cursor: url(Wii_Cursor.cur),default;
+    cursor: pointer,default;
 }
 
 
@@ -29,51 +28,66 @@ body {
 
 /* ------------------------------------------------------CABECALHO--------------------------------- */
 #logo{
-    height: 80px;
+    height: 70px;
 }
 
 header{
     align-items: center;
-    padding: 5px;
-    border-bottom: gold 5px solid;
-    background-image: linear-gradient(to top left, #005ac7,#009bb3);
+    border-bottom:#383838 5px solid;
+/*     background-image: linear-gradient(to top left, #000000,#1b1b1b); */
+    background: #F43A3B;
+    width: 100%;
+    position: fixed; 
+    left: auto;
+    top: auto; 
+    transition: .3s;
+    padding: 25px 10px;
+    transform: translateZ(0px);
+    z-index: 1000;
 }
 
 header nav {
     display: inline-flex;
     gap: .5rem;
     float: right;
+    align-items: center;
 }
 header nav a{
+    margin: 0px;
     padding: .5rem .9rem;
-    border: transparent 3px solid;
-    border-radius: 10px;
     text-decoration: none;
     color: #fff;
     font-size: 1.2em;
     transition: ease-in-out .3s;
+    border: 2px solid transparent;
+    height: 100%;
+    text-align: center;
 }
 
 header nav a:hover{
-    color: #000;
-    background:rgb(241, 241, 241);
-    border-bottom:2px solid rgb(255, 208, 0);
-    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.411);
+    color: #fff;
+    border-top:5px solid #383838;
+    border-bottom:5px solid #383838;
     transition: ease-in-out .3s;
-    font-size: 1.3em;
-    letter-spacing: .1px;
     text-decoration: none;
 }
-/* --------------------------------------------------------MENU MOBILE--------------------------- */
 #menu{
     display: flex;
     list-style: none;
-    gap: .5rem;
+    gap: 3rem;
+    align-items: center;
+    margin: 0;  
 }
 
 #menu a{
     display: block;
-    padding: .5rem;
+    padding: .5rem;    
+}
+
+.layout-header-spacer{
+    background-color: #383838da;
+    width: 3px;
+    height: 2em;
 }
 
 #btn-mobile{
@@ -81,26 +95,30 @@ header nav a:hover{
     
 }
 
-@media (min-width: 0px) and  (max-width:800px){
+/* --------------------------------------------------------MENU MOBILE--------------------------- */
+ @media (min-width: 0px) and  (max-width:800px){
 
 
     #menu{
+        right: 0;
         display: block;
         position: absolute;
         width: 100%;
-        top: 60px;
+        top: 80px;
         background: #383838;
-        height: 0px;
         transition: .6s;
-        z-index: 1000;
-        visibility: hidden;
+        visibility: hidden; 
         overflow-y: hidden;
-        right: 0;
+        z-index: 1000;
+        height: calc(50vh);
+
     }
     #nav.active #menu{
-        height: calc(50vh);
         visibility: visible;
         overflow-y: auto;
+        animation: fadeInAnimation ease .6s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
 
     #menu a{
@@ -108,6 +126,7 @@ header nav a:hover{
         margin: 0 1rem;
         border-radius: initial;
         border-bottom: 2px solid rgba(131, 130, 130, 0.349);
+        color: #fff;
     }
     #btn-mobile{
         display: flex;
@@ -148,16 +167,19 @@ header nav a:hover{
 /* ------------------------------------------------------MAIN--------------------------------- */
 .main{
     text-align: center;
-    background-color: #e2e2e2;
+    background-color: #6d6d6d;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .conteudo{
+    margin-top: 100px;
     background: #fff;
     padding: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    box-shadow: 3px 3px 3px 3px #24222257;
+    border-radius: 10px;
 }
 
 /* ------------------------------------------------------PAGEMAP--------------------------------- */
@@ -166,7 +188,7 @@ header nav a:hover{
 }
 #btnPageMap{
 
-    background-color: rgb(22, 152, 228);
+    background-color:none;
     border-radius: 5px;
     width:30px;
     height: 50px;
@@ -174,6 +196,8 @@ header nav a:hover{
     padding: 0;
     left: 0;
     position: fixed;
+    background: #F43A3B;
+    opacity: 50%;
 }
 
 #boxPageMap{
@@ -216,17 +240,44 @@ header nav a:hover{
     transition: ease .3s; 
 }
 #btnPageMap:hover{
-    background-color: rgba(22, 152, 228, 0.767);  
-
+    background: #F43A3B;
+    opacity: 80%;
 }
 
 /* ------------------------------------------------------RODAPE--------------------------------- */
+.socialContainer{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    gap: 5%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.social{
+    margin: 0;
+    background: #CA3174;
+    padding: 10px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.social:hover{
+    color: black ;
+}
+#insta{
+padding-left:12px ;
+padding-right:12px ;
+}
+
 .rodape{
     text-align: center;
-    background: #696969;
-    border-top: rgb(24, 24, 24) 6px solid;
+    background: #09002A;
+/*     border-top: rgb(24, 24, 24) 6px solid; */
     color: white;
 }
+
 .rodape a, .rodape a:visited, .rodape a:hover{
     text-decoration: none;
     color: white;
@@ -240,8 +291,9 @@ footer{
     padding-top: 30px;
     line-height: 10px;
 }
-
-
+.rodape p{
+    text-align: center;
+}
 
 
 

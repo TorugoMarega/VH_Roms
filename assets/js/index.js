@@ -1,7 +1,33 @@
-const btnPageMap = document.getElementById('btnPageMap');
+/* ----------------------------------SCROLL HEADER--------------------------------------------- */
+
+window.onscroll=function(){
+    scrollHeader()
+};
+
+var menuStyle = document.getElementById("menu").style;
+var headerStyle = document.getElementsByTagName("header")[0].style;
+var navStyle = document.getElementById("nav").style;
+
+function scrollHeader(){
+    if(document.body.scrollTop>80 || document.documentElement.scrollTop>80){
+        headerStyle.padding="0px 10px"
+        menuStyle.top = "50px"
+
+    }
+
+    else{
+        headerStyle.padding="25px 10px"
+        menuStyle.top = "80px"
+        navStyle.top = "500px"
+    }
+}
+
+
+
 
 
 /* ----------------------------------PAGEMAP MOBILE--------------------------------------------- */
+const btnPageMap = document.getElementById('btnPageMap');
 function showPageMap(){
     var pageMap = document.getElementById("boxPageMap")
     pageMap.style.left = "30px"
