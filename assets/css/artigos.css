@@ -6,21 +6,37 @@ article{
 article p {
     text-indent: 3ch;
 }
-
+.artigos{
+    text-align: center;
+    background: rgb(68, 68, 68);
+    padding: 15px;
+    /* border-radius: 8px; */
+}
+.artigos h2{ 
+    margin: 0 auto; 
+    border-bottom: 1px solid;
+    padding: 15px;
+    width: 50%;
+    font-family: 'Press Start 2P', cursive;;
+}
 #artigoRoms, #artigoEmuladores{
     margin-top: 40px;
     margin-bottom: 50px;
 }
 
 #artigoRoms img{
+    padding: 5px;
     width: 400px;
+    background: -webkit-linear-gradient(top right,rgb(227,162,189), rgb(49,97,200));
     border-radius: 8px;
 }
 
 #artigoEmuladores img{
+    padding: 5px;
     width: 400px;
     height: 300px;
     border-radius: 8px;
+    background: -webkit-linear-gradient(top right,rgb(227,162,189), rgb(49,97,200));
 }
 
 @media (min-width: 0px) and (max-width: 992px){
@@ -28,11 +44,23 @@ article p {
         margin: 0 auto;
         padding: 10px;
         width: 100%;
+
+        padding-bottom: 50px;
     }
+
     #artigoRoms img, #artigoEmuladores img{
         width: 100%;
     }
 
+    .artigos h2{
+        width: 100%;
+    }
+
+    .conteudo{
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 }
 @media (min-width:992px) {
@@ -50,9 +78,19 @@ article p {
         }
 }
 /* ------------------------------------------------------VIDEOS--------------------------------- */
-
+.videos{
+    background: rgb(109, 109, 109);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.videos h2{ 
+    margin: 0 auto; 
+    border-bottom: 1px solid;
+    padding: 15px;
+    width: 50%;
+}
 .videos div{
-margin-top: 50px;
+margin-top: 100px;
 margin-bottom: 60px;
 }
 
@@ -62,15 +100,15 @@ margin-bottom: 60px;
 }
 
 .videos iframe{
-    border: #F43A3B 7px solid;
     border-radius: 10px;
-    background-color: #F43A3B;
+    padding: 10px;
+    background: -webkit-linear-gradient(top right,rgb(255, 6, 110), rgb(49,97,200));
 }
 
 #fdb{
-    background-color: #086088;
-    padding-top: 10px;
+    height: 175px;
 }
+
 
 @media (min-width:0px){
     .videos iframe{
@@ -78,9 +116,6 @@ margin-bottom: 60px;
         height: 15rem;
     }
 
-    .videos h2{
-        margin-top: 60px;
-    }
 }
 
 @media (min-width: 600px){

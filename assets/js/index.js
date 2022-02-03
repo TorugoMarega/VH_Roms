@@ -16,8 +16,8 @@ function scrollHeader(){
     }
 
     else{
-        headerStyle.padding="25px 10px"
-        menuStyle.top = "80px"
+        headerStyle.padding="15px 10px"
+        menuStyle.top = "66px"
         navStyle.top = "500px"
     }
 }

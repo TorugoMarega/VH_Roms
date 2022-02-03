@@ -33,15 +33,16 @@ body {
 
 header{
     align-items: center;
-    border-bottom:#383838 5px solid;
+/*     border-bottom:#383838 5px solid; */
 /*     background-image: linear-gradient(to top left, #000000,#1b1b1b); */
-    background: #F43A3B;
+/*     background: #F43A3B; */
+    background: #09002A;
     width: 100%;
     position: fixed; 
     left: auto;
     top: auto; 
     transition: .3s;
-    padding: 25px 10px;
+    padding: 15px 10px;
     transform: translateZ(0px);
     z-index: 1000;
 }
@@ -57,68 +58,72 @@ header nav a{
     padding: .5rem .9rem;
     text-decoration: none;
     color: #fff;
+
     font-size: 1.2em;
     transition: ease-in-out .3s;
     border: 2px solid transparent;
     height: 100%;
     text-align: center;
+
+    background: -webkit-linear-gradient(rgb(243, 136, 14), rgb(154, 32, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-header nav a:hover{
-    color: #fff;
-    border-top:5px solid #383838;
-    border-bottom:5px solid #383838;
+#menu a:hover{
+    color: #CA3174;
+    border-top:5px solid #CA3174;
+    border-bottom:5px solid #CA3174;
     transition: ease-in-out .3s;
     text-decoration: none;
 }
+
 #menu{
     display: flex;
     list-style: none;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
-    margin: 0;  
+    margin: 0;
 }
 
 #menu a{
     display: block;
-    padding: .5rem;    
-}
-
-.layout-header-spacer{
-    background-color: #383838da;
-    width: 3px;
-    height: 2em;
+    padding: .5rem;
+    border: 5px solid transparent;
 }
 
 #btn-mobile{
     display: none;
-    
 }
 
+
+.layout-header-spacer{
+    background-color: #CA3174;
+    width: 3px;
+    height: 2em;
+
+}
 /* --------------------------------------------------------MENU MOBILE--------------------------- */
- @media (min-width: 0px) and  (max-width:800px){
+@media (min-width: 0px) and  (max-width:800px){
 
 
     #menu{
-        right: 0;
         display: block;
         position: absolute;
         width: 100%;
-        top: 80px;
+        top: 66px;
         background: #383838;
+        height: 0px;
         transition: .6s;
-        visibility: hidden; 
-        overflow-y: hidden;
         z-index: 1000;
-        height: calc(50vh);
-
+        visibility: hidden;
+        overflow-y: hidden;
+        right: 0;
     }
     #nav.active #menu{
+        height: calc(50vh);
         visibility: visible;
         overflow-y: auto;
-        animation: fadeInAnimation ease .6s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
     }
 
     #menu a{
@@ -126,7 +131,6 @@ header nav a:hover{
         margin: 0 1rem;
         border-radius: initial;
         border-bottom: 2px solid rgba(131, 130, 130, 0.349);
-        color: #fff;
     }
     #btn-mobile{
         display: flex;
@@ -161,25 +165,31 @@ header nav a:hover{
         transform:rotate(-45deg);
         top: -7px;
     }
+    .layout-header-spacer{
+        display: none;
+    }
 }
+
 
 
 /* ------------------------------------------------------MAIN--------------------------------- */
 .main{
     text-align: center;
-    background-color: #6d6d6d;
+/*     background-color: #6d6d6d; */
+    background: #342b4e;
     padding-top: 30px;
     padding-bottom: 30px;
+    color: #fff;
 }
 
 .conteudo{
     margin-top: 100px;
-    background: #fff;
+/*     background: rgb(68, 68, 68); */
     padding: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    box-shadow: 3px 3px 3px 3px #24222257;
-    border-radius: 10px;
+/*     box-shadow: 3px 3px 3px 3px #24222257; */
+    /* border-radius: 10px; */
 }
 
 /* ------------------------------------------------------PAGEMAP--------------------------------- */
@@ -196,8 +206,9 @@ header nav a:hover{
     padding: 0;
     left: 0;
     position: fixed;
-    background: #F43A3B;
+/*     background: #F43A3B; */
     opacity: 50%;
+    background: -webkit-linear-gradient(top right, rgb(243, 136, 14), rgb(154, 32, 253));
 }
 
 #boxPageMap{
@@ -209,7 +220,7 @@ header nav a:hover{
     z-index: 1000;
     width: 230px;
     transition: ease .3s; 
-    margin-top:20vh;
+    margin-top:40vh;
     left: -230px;
 }
 
@@ -240,13 +251,12 @@ header nav a:hover{
     transition: ease .3s; 
 }
 #btnPageMap:hover{
-    background: #F43A3B;
     opacity: 80%;
 }
 
 /* ------------------------------------------------------RODAPE--------------------------------- */
 .socialContainer{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     display: inline-flex;
     gap: 5%;
@@ -256,20 +266,28 @@ header nav a:hover{
     width: 100%;
 }
 
-.social{
+/* .social{
     margin: 0;
     background: #CA3174;
-    padding: 10px;
     border-radius: 100%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
     vertical-align: middle;
+    text-align: center;
+} */
+
+.social [class*="fab fa-"], .social [class*="far fa-"]{
+    background-color: #CA3174;
+    border-radius: 40px;
+    height: 40px;
+     line-height: 40px;
+    margin: auto 3px;
+    width: 40px;
+    font-size: 24px;
+     text-align: center;
 }
-.social:hover{
-    color: black ;
-}
-#insta{
-padding-left:12px ;
-padding-right:12px ;
-}
+
 
 .rodape{
     text-align: center;
