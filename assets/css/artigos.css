@@ -57,6 +57,7 @@ article p {
 
     .artigos h2{
         width: 100%;
+        font-size: 27px;
     }
 
     .conteudo{
@@ -64,7 +65,9 @@ article p {
         margin-left: 0;
         margin-right: 0;
     }
-
+    .videos{
+        padding: 15px;
+    }
 }
 @media (min-width:992px) {
     #artigoRoms{
@@ -79,6 +82,7 @@ article p {
         justify-content: space-between;
         gap: 50px;
         }
+    
 }
 /* ------------------------------------------------------VIDEOS--------------------------------- */
 .videos{
@@ -105,12 +109,12 @@ margin-bottom: 60px;
 
 .videos iframe{
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     background: -webkit-linear-gradient(top right,rgb(255, 6, 110), rgb(49,97,200));
 }
 
 #fdb{
-    height: 175px;
+    height: 170px;
 }
 
 
