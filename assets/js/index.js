@@ -7,18 +7,20 @@ window.onscroll=function(){
 var menuStyle = document.getElementById("menu").style;
 var headerStyle = document.getElementsByTagName("header")[0].style;
 var navStyle = document.getElementById("nav").style;
+var logoStyle = document.getElementById("logo").style;
 
 function scrollHeader(){
     if(document.body.scrollTop>80 || document.documentElement.scrollTop>80){
         headerStyle.padding="0px 10px"
-        menuStyle.top = "50px"
-
+        menuStyle.top = "55px"
+        logoStyle.height = "80px"
     }
 
     else{
         headerStyle.padding="15px 10px"
-        menuStyle.top = "66px"
+        menuStyle.top = "90px"
         navStyle.top = "500px"
+        logoStyle.height = "120px"
     }
 }
 

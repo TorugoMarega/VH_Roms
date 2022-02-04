@@ -28,8 +28,9 @@ body {
 
 /* ------------------------------------------------------CABECALHO--------------------------------- */
 #logo{
-    height: 70px;
-}
+    height: 120px;
+    transition: ease-in-out .3s;
+} 
 
 header{
     align-items: center;
@@ -64,18 +65,17 @@ header nav a{
     border: 2px solid transparent;
     height: 100%;
     text-align: center;
-
-    background: -webkit-linear-gradient(rgb(243, 136, 14), rgb(154, 32, 253));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 #menu a:hover{
+    text-decoration: none;
     color: #CA3174;
+    background: -webkit-linear-gradient(rgb(243, 136, 14), rgb(154, 32, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     border-top:5px solid #CA3174;
     border-bottom:5px solid #CA3174;
     transition: ease-in-out .3s;
-    text-decoration: none;
 }
 
 #menu{
@@ -90,6 +90,7 @@ header nav a{
     display: block;
     padding: .5rem;
     border: 5px solid transparent;
+    text-decoration: none;
 }
 
 #btn-mobile{
@@ -111,7 +112,7 @@ header nav a{
         display: block;
         position: absolute;
         width: 100%;
-        top: 66px;
+        top: 90px;
         background: #383838;
         height: 0px;
         transition: .6s;
@@ -176,7 +177,9 @@ header nav a{
 .main{
     text-align: center;
 /*     background-color: #6d6d6d; */
-    background: #342b4e;
+/*     background: #342b4e; */
+    background-image: url(../img/raiz/videogameBG.jpg);
+    background-repeat: round;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
@@ -184,7 +187,7 @@ header nav a{
 
 .conteudo{
     margin-top: 100px;
-/*     background: rgb(68, 68, 68); */
+/*     background: rgb(68, 68, 68);  */
     padding: 30px;
     margin-left: 10px;
     margin-right: 10px;
@@ -286,8 +289,14 @@ header nav a{
     width: 40px;
     font-size: 24px;
      text-align: center;
+     transition: ease-in-out .3s;
 }
 
+.social [class*="fab fa-"]:hover , .social [class*="far fa-"]:hover{
+    transition: ease-in-out .3s;
+    transform: scale(1.2);
+    color: #fff;
+}
 
 .rodape{
     text-align: center;
@@ -308,6 +317,7 @@ header nav a{
 footer{
     padding-top: 30px;
     line-height: 10px;
+    border-top: 1px  solid #342b4e; 
 }
 .rodape p{
     text-align: center;

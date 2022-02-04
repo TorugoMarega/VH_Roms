@@ -16,8 +16,10 @@
 
 .titulo:hover{
     letter-spacing: .08em;
-    color: rgb(255, 54, 47);
     transition: ease-in-out .2s;
+    background: -webkit-linear-gradient(rgb(243, 136, 14), rgb(154, 32, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .catalogo{
@@ -28,10 +30,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    background: rgb(68, 68, 68);
 }
 .rom{
     border: 2px solid rgb(93, 93, 93);
-    background-color: rgba(195, 195, 195, 0.513);
+    background-color: rgb(173, 86, 255); 
     border-radius: 20px;
     padding: 5px 10px;
     text-align: center;
@@ -46,7 +49,6 @@
     transform: scale(1.05, 1.05);
     color: white;
     border: 2px solid rgb(141, 141, 141);
-    
 }
 .rom:hover img{
     border: 2px solid rgb(141, 141, 141);
@@ -54,7 +56,7 @@
 .rom a{
     font-size: 20px;
     margin: 0;
-    color: initial;
+    color: white;
     transition: ease-in-out .3s;
 }
 .rom p{
@@ -92,7 +94,7 @@
 
 
 .nintendo:hover{
-    background-color: #bf86ff;
+    background: -webkit-linear-gradient(top right,rgb(255, 6, 110), rgb(49,97,200));
 }
 
 .atari:hover{
