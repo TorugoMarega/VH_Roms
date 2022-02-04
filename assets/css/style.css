@@ -251,7 +251,9 @@ header nav a{
 }
 /* --------------------------------------------------------MENU MOBILE--------------------------- */
 @media (min-width: 0px) and  (max-width:800px){
-
+    .neonText{
+        text-shadow: none;
+    }
 
     #menu{
         display: block;
