@@ -8,13 +8,13 @@
     <meta name="author" content="Victor Hugo Marega">
     <meta name="description" content="Saiba mais sobre emulação e jogos antigos!">
     <meta name="keywords"
-        content="Jogo, jogo velho, roms, rom, emulação, emulador, mario, sonic, crash, donkey komg, nintendo, super, famicom, mega drive, sega, master system, playstation, sony, xbox, microsoft, atari, amiga, dreamcast, psp, psvita, ds, 3ds, switch, snes9x, psx, cemu, dolphin, epsxe">
+        content="Jogo, jogo velho, roms, rom, emulação, emulador, mario, sonic, crash, donkey kong, nintendo, super, famicom, mega drive, sega, master system, playstation, sony, xbox, microsoft, atari, amiga, dreamcast, psp, psvita, ds, 3ds, switch, snes9x, psx, cemu, dolphin, epsxe">
+  
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/response.css">
     <link rel="stylesheet" href="./assets/css/artigos.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
-    <link rel="shortcut icon" href="./assets/img/raiz/icone.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/raiz/favicon.ico" type="image/x-icon">
     <!--     BOOTSTRAP CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -24,10 +24,10 @@
 <body>
     <!-------------------------------------------------CABEÇALHO----------------------------------------------------->
     <div class="container-fluid">
-        <header class="row header">
+        <header class="row header borderBottomNeon">
 
             <div class="col-4 ">
-                <a name="top" href="index.html"><img id="logo" src="./assets/img/raiz/logo.png" alt="Logo vh roms"></a>
+                <a name="top" href="index.html"><img id="logo" src="assets/img/raiz/logo.png" alt="Logo vh roms"></a>
             </div>
             
             <div class="col-8">
@@ -36,15 +36,20 @@
                         <span id="hamburguer"></span>
                     </button>
                     <ul id="menu">
-                        <li><a href="./index.html"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="./roms.html"><i class="fas fa-microchip"></i> Roms</a></li>
-                        <li><a href="./emuladores.html"><i class="fas fa-laptop-code"></i> Emuladores</a></li>
-                        <li><a href="./jogar.html"><i class="fas fa-gamepad"></i> Jogar</a></li>
+                        <li><a class="neonText" href="./index.html"><i class="fas fa-home"></i> Home</a></li>
+                        <div class="layout-header-spacer"></div>
+                        <li><a class="neonText" href="./roms.html"><i class="fas fa-microchip"></i> Roms</a></li>
+                        <div class="layout-header-spacer"></div>
+                        <li><a class="neonText" href="./emuladores.html"><i class="fas fa-laptop-code"></i> Emuladores</a></li>
+                        <div class="layout-header-spacer"></div>
+                        <li><a class="neonText" href="./jogar.html"><i class="fas fa-gamepad"></i> Jogar</a></li>
                     </ul>
                 </nav> 
             </div>
         </header>
     </div>
+
+<!-- -------------------------------------------------MAIN---------------------------------------------------------    --> 
     <main class="main">
         <div class="container-fluid">
             <div class="row">
@@ -54,7 +59,6 @@
                         <i style="color: white;" class="fas fa-chevron-right fa-3x"></i>
                     </div>   
                     <ul id="pageMap">
-                        <li><a href="#top">Início</a></li>
                         <li><a href="#oquesaoroms">O que são roms?</a></li>
                         <li><a href="#oquesaoemuladores">O que são emuladores?</a></li>
                         <li><a href="#videos">Videos e Podcasts</a></li>
@@ -65,8 +69,8 @@
                 <div class="col"></div>
                 <div class="col-sm-12 col-md-10 conteudo">
 <!---------------------------------------------------------TEXTO--------------------------------------------------------->
-                    <section class="artigos">
-                        <h1> <a name="oquesaoroms"></a> O que são roms?</h1>
+                    <section class="artigos neonBackground">
+                        <h2><a name="oquesaoroms"></a>O que são roms?</h2>
                         <div id="artigoRoms">
                             <article>
                                 <p>A memória somente de leitura ou <b>ROM</b> (acrônimo em inglês de read-only memory) é
@@ -103,7 +107,7 @@
                             </figure>
                         </div>
 
-                        <h1><a name="oquesaoemuladores"></a>O que são emuladores?</h1>
+                        <h2><a name="oquesaoemuladores"></a>O que são emuladores?</h2>
                         
                         <div id="artigoEmuladores">
                             <figure>
@@ -145,7 +149,7 @@
                     </section>
 
 <!------------------------------------------------- VIDEOS------------------------------------------------------>
-                    <section class="videos">
+                    <section class="videos neonBackgroundBlue">
                         <h2><i class="fab fa-youtube"></i><a name="videos"></a> Videos e Podcasts</h2>
                         <div>
                             <h3>Melhores Jogos de Super Nintendo</h3>
@@ -178,7 +182,7 @@
 
                         <div class="podcasts">
                             <h3>Roms Hack | Fliperama de Boteco</h3>
-                            <iframe id="fdb" src="https://open.spotify.com/embed/episode/5sPG1W0S5kmalxYi45dfM3?utm_source=generator" width="560" height="315" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            <iframe id="fdb" src="https://open.spotify.com/embed/episode/5sPG1W0S5kmalxYi45dfM3?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
 
                     </section>
@@ -191,8 +195,18 @@
     <div class="container-fluid rodape">
         <div class="row">
             <div class="col">
+                <div class="socialContainer">
+                    <a id="github" href="https://github.com/TorugoMarega" class="social"><i class="fab fa-github fa-2x"></i></a>
+                    <a id="linkedin" href="https://www.linkedin.com/in/victor-hugo-marega/" class="social"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a id="insta" name="footer" class="social" href="https://www.instagram.com/victorhugomarega/"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a id="email" class="social" href="mailto:vhroms@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
                 <footer>
-                    <p>&#127918; Feito para os gamers raiz &#127918;</p>
+                    <p>Feito para os gamers raiz</p>
                     <p>&copy; 2022 <a href="mailto:victorhugomarega@hotmail.com">Victor Hugo Marega</a></p>
                 </footer>
             </div>

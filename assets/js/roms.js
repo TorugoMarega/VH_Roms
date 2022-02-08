@@ -5,8 +5,8 @@
 *  Ano de lançamento                         *
 ----------------------------------------------
  */
-//string json
 
+//string json
 /* const json = '{"nintendo":['+
 
     '{"cover":"https://images.nintendolife.com/screenshots/11375/large.jpg" ,"review":"https://www.nintendolife.com/games/snes/actraiser" ,"title":"ActRaiser","publisher":"Square Enix","year":1990},'+

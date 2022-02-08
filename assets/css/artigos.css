@@ -6,51 +6,114 @@ article{
 article p {
     text-indent: 3ch;
 }
-
+.artigos{
+    font-size: large;
+    text-align: center;
+    padding: 80px;
+/*     background: rgb(71, 71, 71); */
+    /* border-radius: 8px; */
+}
+.artigos h2{ 
+    margin: 0 auto; 
+    border-bottom: 1px solid;
+    padding: 15px;
+    width: 50%;
+    font-family: 'Press Start 2P', cursive;;
+}
 #artigoRoms, #artigoEmuladores{
     margin-top: 40px;
     margin-bottom: 50px;
 }
 
 #artigoRoms img{
+    padding: 5px;
     width: 400px;
+    background: -webkit-linear-gradient(top right,rgb(227,162,189), rgb(49,97,200));
+    border-radius: 8px;
 }
 
 #artigoEmuladores img{
+    padding: 5px;
     width: 400px;
     height: 300px;
+    border-radius: 8px;
+    background: -webkit-linear-gradient(top right,rgb(227,162,189), rgb(49,97,200));
 }
 
-@media (min-width: 0px) and (max-width: 992px){
+@media (min-width: 0px) and (max-width: 1280px){
+    .artigos{
+        padding: 15px;
+        padding-top: 30px;
+    }
     #artigoRoms, #artigoEmuladores{
         margin: 0 auto;
         padding: 10px;
         width: 100%;
+        padding-bottom: 50px;
+        padding-top: 50px;
     }
+
     #artigoRoms img, #artigoEmuladores img{
+        margin-top:30px;
         width: 100%;
     }
 
+    #artigoEmuladores article{
+        padding-top:50px;
+    }
+    .artigos h2{
+        width: 100%;
+        font-size: 27px;
+    }
 
+    .conteudo{
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .videos{
+        padding: 15px;
+    }
 }
-@media (min-width:992px) {
+@media (min-width: 600px) and (max-width: 1280px){
+    #artigoRoms img, #artigoEmuladores img{
+        width: 70%;
+    }
+}
+
+@media (min-width:1280px) {
     #artigoRoms{
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 50px;
         justify-content: space-between;
     }
     #artigoEmuladores{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 20px;
+        gap: 50px;
+        }
+
+        #artigoRoms img, #artigoEmuladores img{
+            height: 100%;
         }
 }
 /* ------------------------------------------------------VIDEOS--------------------------------- */
-
+.videos{
+/*     background: rgb(46, 46, 46); */
+    margin-top: 150px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.videos h2{ 
+    margin: 0 auto; 
+    border-bottom: 1px solid;
+    padding: 15px;
+    width: 50%;
+}
 .videos div{
-margin-top: 50px;
+margin-top: 100px;
 margin-bottom: 60px;
 }
 
@@ -60,15 +123,15 @@ margin-bottom: 60px;
 }
 
 .videos iframe{
-    border: gold 7px solid;
     border-radius: 10px;
-    background-color: gold;
+    padding: 8px;
+    background: -webkit-linear-gradient(top right,rgb(255, 6, 110), rgb(49,97,200));
 }
 
 #fdb{
-    background-color: #086088;
-    padding-top: 10px;
+    height: 170px;
 }
+
 
 @media (min-width:0px){
     .videos iframe{
@@ -76,9 +139,6 @@ margin-bottom: 60px;
         height: 15rem;
     }
 
-    .videos h2{
-        margin-top: 60px;
-    }
 }
 
 @media (min-width: 600px){
