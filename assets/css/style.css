@@ -214,6 +214,7 @@ header nav a{
 /*     border-top:5px solid #ffd00088;
     border-bottom:5px solid #ffd00088; */
     transition: ease-in-out .3s;
+    transform: scale(1.1);
 }
 #menu{
     display: flex;
@@ -267,9 +268,10 @@ header nav a{
         visibility: hidden;
         overflow-y: hidden;
         right: 0;
+        border-radius: 8px;
     }
     #nav.active #menu{
-        height: calc(50vh);
+        height: calc(35vh);
         visibility: visible;
         overflow-y: auto;
     }
@@ -277,7 +279,6 @@ header nav a{
     #menu a{
         padding: 1rem 0;
         margin: 0 1rem;
-        border-radius: initial;
         border-bottom: 2px solid rgba(131, 130, 130, 0.349);
     }
     #btn-mobile{
@@ -336,9 +337,9 @@ header nav a{
 }
 
 .conteudo{
-    margin-top: 100px;
+    margin-top: 220px;
 /*     background: rgb(68, 68, 68);  */
-    padding: 30px;
+    padding: 80px;
     margin-left: 10px;
     margin-right: 10px;
 /*     box-shadow: 3px 3px 3px 3px #24222257; */
@@ -409,8 +410,8 @@ header nav a{
 
 /* ------------------------------------------------------RODAPE--------------------------------- */
 .socialContainer{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: inline-flex;
     gap: 5%;
     align-items: center;
@@ -440,12 +441,31 @@ header nav a{
     font-size: 24px;
      text-align: center;
      transition: ease-in-out .3s;
+     box-shadow:
+     0 0 7px #CA3174,
+     0 0 10px #CA3174,
+     0 0 200px #CA3174,
+     0 0 50px #CA3174,
+     0 0 0px #CA3174,
+     0 0 0px #CA3174,
+     0 0 0px #CA3174,
+     0 0 0px #CA3174;
 }
 
 .social [class*="fab fa-"]:hover , .social [class*="far fa-"]:hover{
     transition: ease-in-out .3s;
     transform: scale(1.2);
-    color: #fff;
+    color: #ffffff;
+    background-color: #CA3174;
+    box-shadow:
+    0 0 7px #ffef14,
+    0 0 10px #ffef14,
+    0 0 200px #ffef14,
+    0 0 50px #ffef14,
+    0 0 0px #ffef14,
+    0 0 0px #ffef14,
+    0 0 0px #ffef14,
+    0 0 0px #ffef14;
 }
 
 .rodape{
@@ -471,7 +491,6 @@ header nav a{
 }
 .rodape a:hover{
     transition:ease-in .3s;
-    color: rgb(0, 37, 158);
 }
 
 footer{
@@ -483,7 +502,10 @@ footer{
 .rodape p{
     text-align: center;
 }
-
+.rodape p:nth-child(2) a:hover{
+    color: #e74189;
+    text-decoration: underline;
+}
   
 /* -----------------------------TESTE-------------------- */
 .azul{

@@ -14,7 +14,7 @@ var firebaseConfig = {
   storageBucket: "vhroms-7417c.appspot.com",
   messagingSenderId: "454989664175",
   appId: "1:454989664175:web:c5e85583bf619c5defe95a",
-//  measurementId: "G-9T3DVW3E1N"
+  //  measurementId: "G-9T3DVW3E1N"
 };
 
 // Initialize Firebase
@@ -33,27 +33,33 @@ var database = firebase.database()
 //inicializa variaveis dos cartões com uma string vazia
 var allCardsNintendo = '';
 var allCardsAtari = '';
-var cardNintendo= '';
-var cardAtari= '';
+var cardNintendo = '';
+var cardAtari = '';
 var catalogoNintendo = document.getElementById("catalogoNintendo")
 var catalogoAtari = document.getElementById("catalogoAtari")
 
 //função que pega os dados no fire base e monta os cards
-function getCardNintendo(){
-    var user_ref=database.ref('nintendo')
-    user_ref.on('value', function(snapshot){
-    var dataNintendo =snapshot.val()
-    
-    
-    for (let i=0; i<dataNintendo.length; i++){
+function getCardNintendo() {
+  var user_ref = database.ref('nintendo')
+  user_ref.on('value', function (snapshot) {
+    var dataNintendo = snapshot.val()
 
-      cardNintendo =`<div class="rom nintendo">
-      <img src="${dataNintendo[i].cover}" alt="">
-      <h3><a href="${dataNintendo[i].review}">${dataNintendo[i].title}</a></h3>
-      <p>${dataNintendo[i].publisher}</p>
-      <p>Ano:${dataNintendo[i].year}</p>
-      </div>`
-      
+
+    for (let i = 0; i < dataNintendo.length; i++) {
+
+      cardNintendo = `
+        <div class="rom nintendo">
+          <img src="${dataNintendo[i].cover}" alt="">
+          <h3>${dataNintendo[i].title}</h3>
+          <p>${dataNintendo[i].publisher}</p>
+          <p>Ano:${dataNintendo[i].year}</p>
+          <div class="caixaPlay">
+              <button><a href="${dataNintendo[i].review}""><i class="fas fa-info-circle"></i> Info</a></button>
+              <button><a href=""><i class="fas fa-gamepad icon"></i> Play</a></button>
+          </div>            
+    </div> 
+  `
+
       allCardsNintendo += cardNintendo;
       catalogoNintendo.innerHTML = allCardsNintendo
       //console.log(dataNintendo[i])
@@ -61,30 +67,44 @@ function getCardNintendo(){
   })
 }
 getCardNintendo()
+/* `<a class="rom nintendo" href="${dataNintendo[i].review}"><div>
+      <img src="${dataNintendo[i].cover}" alt="">
+      <h3>${dataNintendo[i].title}</h3>
+      <p>${dataNintendo[i].publisher}</p>
+      <p>Ano:${dataNintendo[i].year}</p>
+      </div></a>` */
 
-function getCardAtari(){
-  var user_ref=database.ref('atari')
-  user_ref.on('value', function(snapshot){
-  var dataNintendo =snapshot.val()
-  
-  
-  for (let i=0; i<dataNintendo.length; i++){
-    cardAtari =`<div class="rom atari">
-    <img src="${dataNintendo[i].cover}" alt="">
-    <h3><a href="${dataNintendo[i].review}">${dataNintendo[i].title}</a></h3>
-    <p>${dataNintendo[i].publisher}</p>
-    <p>Ano:${dataNintendo[i].year}</p>
-    </div>`
-    
-    allCardsAtari += cardAtari;
-    catalogoAtari.innerHTML = allCardsAtari
-    console.log(dataNintendo[i])
-  }
-})
+
+function getCardAtari() {
+  var user_ref = database.ref('atari')
+  user_ref.on('value', function (snapshot) {
+    var dataNintendo = snapshot.val()
+
+
+    for (let i = 0; i < dataNintendo.length; i++) {
+
+      cardAtari =`
+      <div class="rom atari">
+        <img src="${dataNintendo[i].cover}" alt="">
+        <h3>${dataNintendo[i].title}</h3>
+        <p>${dataNintendo[i].publisher}</p>
+        <p>Ano:${dataNintendo[i].year}</p>
+        <div class="caixaPlay">
+            <button><a href="${dataNintendo[i].review}""><i class="fas fa-info-circle"></i> Info</a></button>
+            <button><a href=""><i class="fas fa-gamepad icon"></i> Play</a></button>
+        </div>            
+  </div> 
+`
+
+      allCardsAtari += cardAtari;
+      catalogoAtari.innerHTML = allCardsAtari
+      console.log(dataNintendo[i])
+    }
+  })
 }
 getCardAtari()
 
- 
+
 //------------------------------------- COM JSON PARSE ------------------------------------------------
 
 //var catalogo = document.getElementById("catalogo")

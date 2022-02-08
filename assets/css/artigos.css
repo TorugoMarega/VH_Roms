@@ -7,10 +7,10 @@ article p {
     text-indent: 3ch;
 }
 .artigos{
+    font-size: large;
     text-align: center;
-/*     background: rgb(71, 71, 71); */
     padding: 80px;
-    margin-top: 100px;
+/*     background: rgb(71, 71, 71); */
     /* border-radius: 8px; */
 }
 .artigos h2{ 
@@ -54,10 +54,8 @@ article p {
     }
 
     #artigoRoms img, #artigoEmuladores img{
+        margin-top:30px;
         width: 100%;
-    }
-    #artigoRoms img{
-        height: 50%;
     }
 
     #artigoEmuladores article{
@@ -77,6 +75,12 @@ article p {
         padding: 15px;
     }
 }
+@media (min-width: 600px) and (max-width: 1280px){
+    #artigoRoms img, #artigoEmuladores img{
+        width: 70%;
+    }
+}
+
 @media (min-width:1280px) {
     #artigoRoms{
         display: flex;
