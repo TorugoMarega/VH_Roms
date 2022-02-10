@@ -1,29 +1,42 @@
 /* ----------------------------------SCROLL HEADER--------------------------------------------- */
 
-window.onscroll=function(){
-    scrollHeader()
-};
 
 var menuStyle = document.getElementById("menu").style;
 var headerStyle = document.getElementsByTagName("header")[0].style;
 var navStyle = document.getElementById("nav").style;
 var logoStyle = document.getElementById("logo").style;
-
+var titlePlay = document.title;
 function scrollHeader(){
-    if(document.body.scrollTop>80 || document.documentElement.scrollTop>80){
-        headerStyle.padding="0px 10px"
-        menuStyle.top = "55px"
-        logoStyle.height = "80px"
-    }
+        if(document.body.scrollTop>80 || document.documentElement.scrollTop>80){
+            headerStyle.padding="0px 10px"
+            menuStyle.top = "55px"
+            logoStyle.height = "80px"
+            navStyle.fontSize = "initial"
+        }
 
-    else{
-        headerStyle.padding="15px 10px"
-        menuStyle.top = "90px"
-        navStyle.top = "500px"
-        logoStyle.height = "120px"
-    }
+        else{
+            headerStyle.padding="15px 10px"
+            menuStyle.top = "90px"
+            navStyle.top = "500px"
+            logoStyle.height = "120px"
+            navStyle.fontSize = "20px"
+        }
 }
 
+
+if (titlePlay == 'Play Game'){
+    headerStyle.padding="0px 10px"
+    menuStyle.top = "55px"
+    logoStyle.height = "80px"
+    navStyle.fontSize = "initial"
+    headerStyle.position ="absolute"
+}
+
+else{
+    window.onscroll=function(){
+        scrollHeader()
+    };    
+}
 
 
 

@@ -4,6 +4,7 @@
 }
 html {
     scroll-behavior: smooth;
+    filter:saturate(1.2) contrast(1) brightness(1) ;
   }
 a, header img, header li, #btn-mobile, #btn-mobile span, #pageMap, #pageMap li, #btnPageMap i{
     cursor: pointer,default;
@@ -13,7 +14,7 @@ a, header img, header li, #btn-mobile, #btn-mobile span, #pageMap, #pageMap li, 
 
 /* ----------------------------------------SMOOTH LOADING TRANSITION--------------------------------------------- */
 body {
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease .5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -183,6 +184,7 @@ header{
     transform: translateZ(0px);
     z-index: 1000;
     font-family: "Vibur", sans-serif;
+    font-size: 20px;
 }
 
 header nav {
@@ -519,7 +521,4 @@ footer{
 .vermelho{
     background-color: red;
 }
-
-
-
 

@@ -90,9 +90,22 @@
 .caixaPlay button{
     border-radius: 10px;
     padding: 10px;
-    background: #1a90ff;
-    border: 1px solid rgb(105, 105, 105);
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
     transition: .2s ease-in-out;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.caixaPlay button a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    color: white;
+    text-decoration: none;
 }
 
 .rom:hover button{
@@ -102,10 +115,7 @@
 .caixaPlay button:hover{
     transform: scale(1.1);
 }
-.caixaPlay button a{
-    color: white;
-    text-decoration: none;
-}
+
 
 @media (min-width: 0px) and (max-width: 600px) {
     .catalogo{
@@ -130,17 +140,24 @@
 }
 
 .nintendo{
-    background: #CA3174;
+    background: #6201F2;
     box-shadow:
-    0 0 7px #CA3174,
-    0 0 10px #CA3174,
-    0 0 0px #CA3174,
-    0 0 0px #CA3174,
-    0 0 0px #CA3174,
-    0 0 0px #CA3174,
-    0 0 0px #CA3174,
-    0 0 0px #CA3174;
+    0 0 7px #6201F2,
+    0 0 10px #6201F2,
+    0 0 0px #6201F2,
+    0 0 0px #6201F2,
+    0 0 0px #6201F2,
+    0 0 0px #6201F2,
+    0 0 0px #6201F2,
+    0 0 0px #6201F2;
 }
+.nintendo button{
+    background-color: #E703FF;
+    align-items: center;
+}
+
+
+
 
 /* .nintendo:hover{
 
@@ -151,14 +168,14 @@
     border-radius: 20px;
     background: #09002aef;
     box-shadow:
-    0 0 7px #CA3174,
-    0 0 10px #CA3174,
-    0 0 21px #CA3174,
-    0 0 42px #CA3174,
-    0 0 82px #CA3174,
-    0 0 0px #CA3174,
-    0 0 0px #CA3174,
-    0 0 0px #CA3174;
+    0 0 7px #f222ff,
+    0 0 10px #f222ff,
+    0 0 21px #f222ff,
+    0 0 42px #f222ff,
+    0 0 82px #f222ff,
+    0 0 0px #f222ff,
+    0 0 0px #f222ff,
+    0 0 0px #f222ff;
     padding: 20px;
     padding-top: 60px;
     margin-bottom: 100px;
@@ -169,17 +186,21 @@
     background: -webkit-linear-gradient(top right,rgb(6, 164, 255), rgb(255, 62, 165)); 
 } */
 .atari{
-    background: #3eada4;
+    background: #7394D1;
     box-shadow:
-    0 0 7px #3eada4,
-    0 0 10px #3eada4,
-    0 0 0px #3eada4,
-    0 0 0px #3eada4,
-    0 0 0px #3eada4,
-    0 0 0px #3eada4,
-    0 0 0px #3eada4,
-    0 0 0px #3eada4;
-} 
+    0 0 7px #7394D1,
+    0 0 10px #7394D1,
+    0 0 0px #7394D1,
+    0 0 0px #7394D1,
+    0 0 0px #7394D1,
+    0 0 0px #7394D1,
+    0 0 0px #7394D1,
+    0 0 0px #7394D1;
+}
+
+.atari button{
+    background:#FEADAF;
+}
 
 
 .neonBackgroundAtari{
@@ -256,4 +277,19 @@
         0 0 0px #893AA1,
         0 0 0px #893AA1;
     }
+}
+
+/* ---------------------------PAG-EMULADOR--------------------------------- */
+
+.gameTitle{
+    margin-bottom: 40px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    transition: ease-in-out .2s;
+    padding-bottom:11px;
+    border-bottom: rgb(200, 200, 200) 3px solid;
+}
+
+.boxEmulator{
+    padding-bottom: 40px;
 }
