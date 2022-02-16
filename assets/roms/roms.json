@@ -7,7 +7,9 @@
                 "title": "ActRaiser",
                 "publisher": "Square Enix",
                 "year": 1990,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FActRaiser.zip?alt=media&token=6b8835a2-53ab-4368-82d3-fb3c356fd801"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FActRaiser.zip?alt=media&token=6b8835a2-53ab-4368-82d3-fb3c356fd801",
+                "rating": 0, 
+                "resenha":"" 
             },
             {
                 "cover": "https://images.nintendolife.com/4e4ac48fbf2e7/legend-of-zelda-a-link-to-the-past-cover.cover_large.jpg",
@@ -15,7 +17,9 @@
                 "title": "The Legend of Zelda: A Link to the Past",
                 "publisher": "Nintendo",
                 "year": 1992,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FLegend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20(USA).sfc?alt=media&token=3109e95c-694e-448c-9235-4807b675ebdc"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FLegend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20(USA).sfc?alt=media&token=3109e95c-694e-448c-9235-4807b675ebdc",
+                "rating": 0,
+                "resenha": "" 
             },
             {
                 "cover": "https://images.nintendolife.com/4663ab667452c/super-mario-world-cover.cover_large.jpg",
@@ -23,7 +27,9 @@
                 "title": "Super Mario World",
                 "publisher": "Nintendo",
                 "year": 1991,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20World%20(U)%20%5B!%5D.zip?alt=media&token=86a5bd66-e890-45ec-b7ef-d088669d4eaf"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20World%20(U)%20%5B!%5D.zip?alt=media&token=86a5bd66-e890-45ec-b7ef-d088669d4eaf",
+                "rating": 0,
+                "resenha":" Super Mario é um jogo eletrônico de plataforma, desenvolvido pela Nintendo Entertainment Analysis & Development e publicado pela Nintendo, em 1990, para o console Super Nintendo Entertainment System (SNES). A história segue a jornada de Mario para salvar a Princesa Toadstool e a Dinosaur Land do antagonista Bowser e de seus capangas, os Koopalings. A jogabilidade é semelhante à dos jogos anteriores da série Super Mario: os jogadores controlam Mario ou seu irmão Luigi através de uma série de fases, cujo objetivo é alcançar um portão gigante em seu final. Super Mario World introduz Yoshi, um dinossauro que pode comer inimigos, bem como ganhar habilidades comendo cascas de Koopa Troopas." 
             },
             {
                 "cover": "https://images.nintendolife.com/734c71f790a53/chrono-trigger-cover.cover_large.jpg",
@@ -31,7 +37,8 @@
                 "title": "Chrono Trigger",
                 "publisher": "Square Enix",
                 "year": 1995,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FChrono%20Trigger%20(USA).sfc?alt=media&token=616c62ef-149e-4ecc-9c22-a3f435846696"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FChrono%20Trigger%20(USA).sfc?alt=media&token=616c62ef-149e-4ecc-9c22-a3f435846696",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/e3055d4afdc47/super-metroid-cover.cover_large.jpg",
@@ -39,15 +46,17 @@
                 "title": "Super Metroid ",
                 "publisher": "Nintendo",
                 "year": 1994,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Metroid.zip?alt=media&token=ef214233-374e-4a51-93f8-be44c2cc2e96"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Metroid.zip?alt=media&token=ef214233-374e-4a51-93f8-be44c2cc2e96",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/e33024cfb91e3/super-mario-world-2-yoshis-island-cover.cover_large.jpg",
                 "review": "https://www.nintendolife.com/games/snes/super_mario_world_2_yoshis_island",
-                "title": " Super Mario World 2: Yoshis Island ",
+                "title": "Super Mario World 2: Yoshis Island ",
                 "publisher": "Nintendo",
                 "year": 1995,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20World%202%20-%20Yoshi's%20Island%20(U)%20(V1.1).zip?alt=media&token=d7e6c241-a9a4-4c13-ab45-4b0eb754803a"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20World%202%20-%20Yoshi's%20Island%20(U)%20(V1.1).zip?alt=media&token=d7e6c241-a9a4-4c13-ab45-4b0eb754803a",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/edbf2d7e54fbb/mega-man-x-cover.cover_300x.jpg",
@@ -55,7 +64,8 @@
                 "title": "Mega Man X",
                 "publisher": "Capcom",
                 "year": 1994,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FMega%20Man%20X%20(U)%20(V1.1).zip?alt=media&token=f50ed4d3-a650-439d-b374-6cc1fd5de7a6"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FMega%20Man%20X%20(U)%20(V1.1).zip?alt=media&token=f50ed4d3-a650-439d-b374-6cc1fd5de7a6",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/ec78e25e1da36/donkey-kong-country-2-diddys-kong-quest-cover.cover_large.jpg",
@@ -63,7 +73,8 @@
                 "title": "Donkey Kong Country 2: Diddys Kong Quest",
                 "publisher": "Capcom",
                 "year": 1995,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FDonkey%20Kong%20Country%202%20-%20Diddy's%20Kong%20Quest%20(USA)%20(En%2CFr)%20(Rev%201).sfc?alt=media&token=c2820f53-1830-4e97-bab9-36b4ca1e233c"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FDonkey%20Kong%20Country%202%20-%20Diddy's%20Kong%20Quest%20(USA)%20(En%2CFr)%20(Rev%201).sfc?alt=media&token=c2820f53-1830-4e97-bab9-36b4ca1e233c",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/94e6caab1fe8c/earthbound-cover.cover_large.jpg",
@@ -71,7 +82,8 @@
                 "title": "EarthBound ",
                 "publisher": "Nintendo",
                 "year": 1995,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FEarthBound.zip?alt=media&token=05b8d084-7d4e-4f4b-ad2b-74e41c26b5a6"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FEarthBound.zip?alt=media&token=05b8d084-7d4e-4f4b-ad2b-74e41c26b5a6",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/15515aacacdda/super-mario-all-stars-cover.cover_large.jpg",
@@ -79,7 +91,8 @@
                 "title": "Super Mario All-Stars",
                 "publisher": "Nintendo",
                 "year": 1993,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20All-Stars.zip?alt=media&token=0e12bdc7-2014-42c6-939e-49667a175c47"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20All-Stars.zip?alt=media&token=0e12bdc7-2014-42c6-939e-49667a175c47",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/84048de2b576e/donkey-kong-country-cover.cover_large.jpg",
@@ -87,7 +100,8 @@
                 "title": "Donkey Kong Country",
                 "publisher": "Nintendo",
                 "year": 1994,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FDonkey%20Kong%20Country%20(U)%20(V1.2)%20%5B!%5D.zip?alt=media&token=4bd02a64-a74a-4804-84fe-58dca905c99d"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FDonkey%20Kong%20Country%20(U)%20(V1.2)%20%5B!%5D.zip?alt=media&token=4bd02a64-a74a-4804-84fe-58dca905c99d",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/4b082ba69a735/super-castlevania-iv-cover.cover_large.jpg",
@@ -95,7 +109,8 @@
                 "title": "Super Castlevania IV",
                 "publisher": "Konami",
                 "year": 1991,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Castlevania%20IV.zip?alt=media&token=7fc2f803-ceb7-4326-b971-f64c029a898a"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Castlevania%20IV.zip?alt=media&token=7fc2f803-ceb7-4326-b971-f64c029a898a",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/c53da2422aa1d/street-fighter-ii-turbo-hyper-fighting-cover.cover_large.jpg",
@@ -103,7 +118,8 @@
                 "title": "Street Fighter II Turbo: Hyper Fighting",
                 "publisher": "Capcom",
                 "year": 1993,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Street%20Fighter%20II%20-%20The%20New%20Challengers%20(U).zip?alt=media&token=f5a96024-b566-4bb0-b804-a1fbdd5e9365"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Street%20Fighter%20II%20-%20The%20New%20Challengers%20(U).zip?alt=media&token=f5a96024-b566-4bb0-b804-a1fbdd5e9365",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/4f79434c4ef05/secret-of-mana-cover.cover_large.jpg",
@@ -111,7 +127,8 @@
                 "title": "Secret of Mana",
                 "publisher": "Square Enix",
                 "year": 1993,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSecret%20of%20Mana.zip?alt=media&token=d5add176-4cae-4541-b5f8-2bd080545263"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSecret%20of%20Mana.zip?alt=media&token=d5add176-4cae-4541-b5f8-2bd080545263",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/ebdeb9adf637e/goof-troop-cover.cover_large.jpg",
@@ -119,7 +136,8 @@
                 "title": "Goof Troop",
                 "publisher": "Capcom",
                 "year": 1993,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FGoof%20Troop%20(USA).sfc?alt=media&token=43742719-cf21-4b0c-be39-9b23d21b0e0c"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FGoof%20Troop%20(USA).sfc?alt=media&token=43742719-cf21-4b0c-be39-9b23d21b0e0c",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/3ab327b4ebd66/kirby-super-star-cover.cover_large.jpg",
@@ -127,7 +145,8 @@
                 "title": "Kirby Super Star",
                 "publisher": "Capcom",
                 "year": 1996,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FKirby%20Super%20Star.zip?alt=media&token=89ce534a-a818-40ac-b111-b9a011f62fc7"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FKirby%20Super%20Star.zip?alt=media&token=89ce534a-a818-40ac-b111-b9a011f62fc7",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/aaedf62e2e897/sunset-riders-cover.cover_large.jpg",
@@ -135,7 +154,8 @@
                 "title": "Sunset Riders",
                 "publisher": "Konami",
                 "year": 1993,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSunset%20Riders.zip?alt=media&token=a3060f02-2e62-42e6-8ca9-b3bdf5cc3115"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSunset%20Riders.zip?alt=media&token=a3060f02-2e62-42e6-8ca9-b3bdf5cc3115",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/b8e7818cbd043/super-mario-kart-cover.cover_large.jpg",
@@ -143,7 +163,8 @@
                 "title": "Super Mario Kart",
                 "publisher": "Nintendo",
                 "year": 1992,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20Kart.zip?alt=media&token=1f16e4d2-4017-49e5-a6df-122160129383"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20Kart.zip?alt=media&token=1f16e4d2-4017-49e5-a6df-122160129383",
+                "rating": 0 
             },
             {
                 "cover": "https://images.nintendolife.com/e1c0ed4af4f36/final-fight-3-cover.cover_large.jpg",
@@ -151,7 +172,8 @@
                 "title": "Final Fight 3",
                 "publisher": "Capcom",
                 "year": 1996,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FFinal%20Fight%203.sfc?alt=media&token=04926b2b-b439-4a5b-8d4b-9e53fdfa7349"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FFinal%20Fight%203.sfc?alt=media&token=04926b2b-b439-4a5b-8d4b-9e53fdfa7349",
+                "rating": 0 
             },
             {
                 "cover": "https://s2.glbimg.com/pXVkrXbT5rBCyKv68VzvXb5UrKM=/0x0:913x579/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/l/A/zPe6OzRnitN3F1rd77Gw/captura-de-tela-2020-04-24-as-10.06.52.png",
@@ -159,7 +181,8 @@
                 "title": "Top Gear 2",
                 "publisher": "Kemco",
                 "year": 1992,
-                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FTop%20Gear%202.zip?alt=media&token=f17f5f2e-92f7-4bc7-a7b5-31acf09796e6"
+                "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FTop%20Gear%202.zip?alt=media&token=f17f5f2e-92f7-4bc7-a7b5-31acf09796e6",
+                "rating": 0 
             }
         ],
     

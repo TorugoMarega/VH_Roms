@@ -1,5 +1,12 @@
+// TROCA O TITLE DA PAGINA PARA O NOME DO JOGO ARMAZENADO NO SESSIONSTORAGE
+//CONCATENA O NOME
+document.title =sessionStorage.tempTitle+" "+"| Jogar"
 
 var emulator = document.getElementById("emulator");
+var gameTitle = document.getElementById("gameTitle")
+
+//------------------ADICIONA O TITULO DO JOGO ARMAZENADO NO SESSIONSTORAGE
+gameTitle.innerHTML=`${sessionStorage.tempTitle}`
 
 var NepPlayer = "#emulator";     
 // ID of html element where emulator will be inserted
@@ -21,11 +28,12 @@ var NepColor = "#D111E0";
 
 
 //----------------------------------------GAME LOCAL FILES----------------------------
-var boxartimg ="<img src=https://images.nintendolife.com/4663ab667452c/super-mario-world-cover.cover_large.jpg/>"
 
+//------------------ADICIONA O LINK DA CAPA DO JOGO ARMAZENADO NO SESSIONSTORAGE
+var boxartimg = "<img src="+sessionStorage.tempCover+"/>"
 // You cant add box art img on start screen
 
-
+//--------------------RECUPERA A URL SALVA NO SESSIONSTORAGE E PASSA PARA O EMULADOR--------------------
 var gameUrl = sessionStorage.tempUrl
 // Game Url
-
+var NepZoom = "enable"; 

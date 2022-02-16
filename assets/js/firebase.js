@@ -1,4 +1,3 @@
-
 //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -19,7 +18,7 @@ var firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-var database = firebase.database()
+export var database = firebase.database()
 
 
 /* ------------------objeto-rom--------------
@@ -27,6 +26,7 @@ var database = firebase.database()
 *  Titulo                                    *
 *  Publisher                                 *
 *  Ano de lançamento                         *
+*  Url da rom                                *
 ----------------------------------------------
  */
 
@@ -39,129 +39,48 @@ var catalogoNintendo = document.getElementById("catalogoNintendo")
 var catalogoAtari = document.getElementById("catalogoAtari")
 
 
-//função que pega os dados no firebase e monta os cards
-
 
 //----------------------------------------------------NINTENDO-------------------------------------------
-let i = 0;
-var rom_ref = database.ref('roms/nintendo')
-function getCardNintendo() {
-  rom_ref.on('value', function (snapshot) {
-    var databaseRoms = snapshot.val()
 
+//função que pega os dados no firebase e monta os cards
+export function getCardNintendo() {
+    let i = 0;
+    var rom_ref = database.ref('roms/nintendo')
+    rom_ref.on('value', function (snapshot) {
+
+    allCardsNintendo =` `
+    var databaseRoms = snapshot.val()
     for (i = 0; i < databaseRoms.length; i++) {
 
+
       cardNintendo = `
-        <div id="romId_${i}" class="rom nintendo">
-          <img src="${databaseRoms[i].cover}" alt="">
-          <h3>${databaseRoms[i].title}</h3>
-          <p>${databaseRoms[i].publisher}</p>
-          <p>Ano:${databaseRoms[i].year}</p>
-          <div class="caixaPlay">
-              <button><a href="${databaseRoms[i].review}"><i class="fas fa-info-circle"></i> Info</a></button>
-              <button class="play"><a href="${databaseRoms[i].rom_url}"  onclick="doalert(this); return false;"><i class="fas fa-gamepad icon"></i> Play</a></button>
-              
-          </div>            
-    </div> 
-  `
-
-
-      allCardsNintendo += cardNintendo;
-      catalogoNintendo.innerHTML = allCardsNintendo
-      //console.log(databaseRoms[i])
-    }
-  })
-}
-getCardNintendo();
-
-//----------------------------------------------------ATARI-------------------------------------------
-
-/* function getCardAtari() {
-  var rom_ref = database.ref('atari')
-  rom_ref.on('value', function (snapshot) {
-    var databaseRoms = snapshot.val()
-
-
-    for (let i = 0; i < databaseRoms.length; i++) {
-
-      cardAtari =`
-      <div class="rom atari">
+      <div id="romId_${i}" class="rom nintendo">
         <img src="${databaseRoms[i].cover}" alt="">
         <h3>${databaseRoms[i].title}</h3>
         <p>${databaseRoms[i].publisher}</p>
         <p>Ano:${databaseRoms[i].year}</p>
         <div class="caixaPlay">
-            <button><a href="${databaseRoms[i].review}""><i class="fas fa-info-circle"></i> Info</a></button>
-            <button><a href="./jogar.html"><i class="fas fa-gamepad icon"></i> Play</a></button>
-        </div>
-  </div>
-`
+        <a href="${databaseRoms[i].review}"><button><i class="fas fa-info-circle"></i> Info</button></a>
+        <a id="id_${i}" title="${databaseRoms[i].title}" name="${databaseRoms[i].cover}" href="${databaseRoms[i].rom_url}" onclick="sessionStorageRomRef(this); return false;"><button class="play"><i class="fas fa-gamepad icon"></i> Play</button></a>
+        <input type="checkbox" name="likeCheck" id="likeCheck_${i}" class="likeCheck">
+        <label for="likeCheck_${i}" class="likeLabel">
+        <div><i class="fas fa-heart"></i>${databaseRoms[i].rating}/5</div>
+        </label>
+        </div>            
+        </div> 
+  `
 
-      allCardsAtari += cardAtari;
-      catalogoAtari.innerHTML = allCardsAtari
-      console.log(databaseRoms[i])
-    }
-  })
-}
-getCardAtari()
- */
-/*
-//---------------------------------------------------------------------------------------------
-
-
-
-
-//----------------------------------------------STORAGE---------------------------------------
-
-/* var storage = firebase.storage();
-var storageRef = storage.ref();
-
-var romRef = storageRef.child('roms')
-var nintendoRef = romRef.child('nintendo')
-var snesRef = nintendoRef.child('snes')
-var gameRef= snesRef.child('Super Mario World (U) [!].zip').getDownloadURL()
-
-  .then((url) => {
-    // `url` is the download URL for 'images/stars.jpg'
-
-    // This can be downloaded directly:
-    var xhr = new XMLHttpRequest();
-    xhr.responseType = 'blob';
-    xhr.onload = (event) => {
-      var blob = xhr.response;
-    };
-    xhr.open('GET', url);
-    xhr.send();
-  })
-  .catch((error) => {
-    // Handle any errors
-  });
-
-
-
-   console.log(gameRef) 
- */
-
-
-//------------------------------------- COM JSON PARSE ------------------------------------------------
-
-//var catalogo = document.getElementById("catalogo")
-
-//a string json é convertida em objeto json
-//const rom = JSON.parse(database)
-/* var card;
-var allCards = '';
- for (i=0; i<rom.nintendo.length; i++){
-
-    card =`<div class="rom">
-    <img src="${rom.nintendo[i].cover}" alt="">
-    <h3><a href="${rom.nintendo[i].review}">${rom.nintendo[i].title}</a></h3>
-    <p>${rom.nintendo[i].publisher}</p>
-    <p>Ano:${rom.nintendo[i].year}</p>
-    </div>`
-
-    allCards += card
-    catalogo.innerHTML = allCards
+  allCardsNintendo += cardNintendo;
+  catalogoNintendo.innerHTML = allCardsNintendo
+  //console.log(databaseRoms[i])
 }
 
- */
+//console.log(databaseRoms[2])
+})
+}
+getCardNintendo();
+
+
+
+
+
