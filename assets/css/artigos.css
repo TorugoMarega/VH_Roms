@@ -1,3 +1,83 @@
+#carouselNews{
+    display: block;
+    background-color:#09002aef;
+    border-radius: 8px;
+    height: 600px;
+
+}
+#carouselNews img{
+    width: 100%;
+    height: 550px;
+    opacity: 40%;
+    object-fit: cover;
+}
+.carousel-caption{
+    padding: 30px;
+    background-color: #09002ada;
+    height: 80%;
+}
+.carousel-caption a h5{
+    font-size: 30px;
+    color: #d050ff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgb(37, 37, 37);
+}
+
+.carousel-caption a:hover{
+    color: #d050ff;
+}
+.carousel-caption p{
+    font-size: 20px; 
+    text-shadow: 1px 1px 2px rgb(37, 37, 37);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+.carouselBackground{
+    margin-bottom: 100px;
+    background:  rgb(34, 34, 34);
+}
+
+@media (min-width: 600px) and (max-width: 1280px){
+        #carouselNews{
+            height: 400px;
+        } 
+        #carouselNews img{
+            height: 350px;
+            }
+
+        .carousel-caption a h5{
+            font-size: 20px;
+        }
+
+        .carousel-caption p{
+            font-size: 15px; 
+            -webkit-line-clamp: 7;
+        }
+}
+@media (min-width: 0px) and (max-width: 600px){
+    #carouselNews{
+        height: 300px;
+    } 
+    #carouselNews img{
+     height: 250px;
+     }
+ 
+ .carousel-caption a h5{
+     font-size: 17px;
+ }
+ 
+ .carousel-caption p{
+     font-size: 15px; 
+     -webkit-line-clamp: 3;
+ }
+
+
+}
 /* ------------------------------------------------------ARTIGOS--------------------------------- */
 article{
     text-align: justify;
@@ -15,7 +95,6 @@ article p {
 }
 .artigos h2{ 
     margin: 0 auto; 
-    border-bottom: 1px solid;
     padding: 15px;
     width: 50%;
     font-family: 'Press Start 2P', cursive;;
@@ -28,6 +107,7 @@ article p {
 #artigoRoms img{
     padding: 5px;
     width: 400px;
+    height: 300px;
     background: -webkit-linear-gradient(top right,rgb(227,162,189), rgb(49,97,200));
     border-radius: 8px;
 }
@@ -81,7 +161,7 @@ article p {
     }
 }
 
-@media (min-width:1280px) {
+@media (min-width:1281px) {
     #artigoRoms{
         display: flex;
         align-items: center;
@@ -108,9 +188,12 @@ article p {
 }
 .videos h2{ 
     margin: 0 auto; 
-    border-bottom: 1px solid;
     padding: 15px;
     font-family: 'Press Start 2P', cursive;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .videos div{
 margin-top: 100px;

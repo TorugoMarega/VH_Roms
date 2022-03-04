@@ -11,15 +11,15 @@ function scrollHeader(){
             headerStyle.padding="0px 10px"
             menuStyle.top = "55px"
             logoStyle.height = "80px"
-            navStyle.fontSize = "initial"
+            navStyle.fontSize = "15px"
         }
 
         else{
-            headerStyle.padding="15px 10px"
-            menuStyle.top = "90px"
+            headerStyle.padding="5px 10px"
+            menuStyle.top = "40px"
             navStyle.top = "500px"
-            logoStyle.height = "120px"
-            navStyle.fontSize = "20px"
+            logoStyle.height = "100px"
+            navStyle.fontSize = "17px"
         }
 }
 

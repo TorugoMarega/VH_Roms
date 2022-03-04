@@ -9,7 +9,7 @@
                 "year": 1990,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FActRaiser.zip?alt=media&token=6b8835a2-53ab-4368-82d3-fb3c356fd801",
                 "rating": 0, 
-                "resenha":"" 
+                "resenha":"ActRaiser tem elementos de RPG e simulação, como status do personagem e das cidades, uso de itens, mágicas (no caso, milagres) e equipamentos, mas tem fases em clássica ação com plataformas, que requer estratégia principalmente para derrotar os chefes, que são enormes e com barras de energia que parecem sem fim.O som foi um dos destaques, no primeiro trabalho de Yuzo Koshiro no SNES (mais reconhecido pelas brilhantes trilhas em games da Sega, como Streets of Rage e The Revenge of Shinobi). Os efeitos são eficientes e claros, como os sons da espada e dos disparos, e as faixas fazem ótima reprodução de instrumentos, como um órgão bem peculiar de música sacra, mas em ritmo animado, na pilha da ação. No mapa elas são mais suaves, um estilo medieval que o ambiente sugere." 
             },
             {
                 "cover": "https://images.nintendolife.com/4e4ac48fbf2e7/legend-of-zelda-a-link-to-the-past-cover.cover_large.jpg",
@@ -19,7 +19,7 @@
                 "year": 1992,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FLegend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20(USA).sfc?alt=media&token=3109e95c-694e-448c-9235-4807b675ebdc",
                 "rating": 0,
-                "resenha": "" 
+                "resenha": "Numa noite escura e de tempestade, o jovem Link embarca numa aventura inesquecível, tanto para ele como para ti! A Princess Zelda foi capturada e um mago maléfico tenta libertar Ganon, o rei das trevas. Apenas Link tem a coragem para salvar Hyrule! A Link to the Past é o capítulo da saga The Legend of Zelda para a Super NES mais aclamado pela crítica, sendo famoso pelos seus gráficos e som, pelas masmorras complexas e pela apresentação de objetos agora clássicos, tais como Hookshot, Pegasus Boots e Master Sword." 
             },
             {
                 "cover": "https://images.nintendolife.com/4663ab667452c/super-mario-world-cover.cover_large.jpg",
@@ -38,7 +38,8 @@
                 "publisher": "Square Enix",
                 "year": 1995,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FChrono%20Trigger%20(USA).sfc?alt=media&token=616c62ef-149e-4ecc-9c22-a3f435846696",
-                "rating": 0 
+                "rating": 0,
+                "resenha": "Chrono Trigger é um clássico do Super Nintendo, mas que foi relançado algumas vezes ao longo dos anos, inclusive para PlayStation 1, Nintendo DS e, mais recentemente, para iOS e Android.Lançado em 11 de março de 1995, Chrono Trigger já nasceu clássico por uma série de razões que nós vamos esmiuçar ao longo desse texto. Pra começar, o período era muito favorável para a Squaresoft (hoje Square Enix) e para os RPGs eletrônicos. Até o lançamento do PlayStation 1, o Super Nintendo era conhecido como o lar dos RPGs, seguindo uma fórmula muito concreta que unia trilhas sonoras envolventes, histórias complexas e cheias de reviravoltas, além de personagens muito carismáticos. O vídeo abaixo é da abertura de PS1, que tem algumas cenas animadas a mais." 
             },
             {
                 "cover": "https://images.nintendolife.com/e3055d4afdc47/super-metroid-cover.cover_large.jpg",
@@ -47,16 +48,18 @@
                 "publisher": "Nintendo",
                 "year": 1994,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Metroid.zip?alt=media&token=ef214233-374e-4a51-93f8-be44c2cc2e96",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Super Metroid equilibra, como poucos jogos da época, ação e exploração em um mundo totalmente interligado e único. Espere com várias horas de jogo da mais pura diversão, com dificuldade moderada, mas que farão você querer rejogá-lo várias e várias vezes. Até porque, o final do jogo varia de acordo com a quantidade de horas levadas para concluí-lo. Tente terminar em menos de 3h e você poderá aproveitar o verdadeiro desfecho desse título que estabeleceu os pilares para o gênero metroidvania e provou que o Super Nintendo podia, sim, bater de frente com a geração dos jogos poligonais." 
             },
             {
                 "cover": "https://images.nintendolife.com/e33024cfb91e3/super-mario-world-2-yoshis-island-cover.cover_large.jpg",
                 "review": "https://www.nintendolife.com/games/snes/super_mario_world_2_yoshis_island",
-                "title": "Super Mario World 2: Yoshis Island ",
+                "title": "Super Mario World 2: Yoshi's Island ",
                 "publisher": "Nintendo",
                 "year": 1995,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20World%202%20-%20Yoshi's%20Island%20(U)%20(V1.1).zip?alt=media&token=d7e6c241-a9a4-4c13-ab45-4b0eb754803a",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Super Mario World 2 é um jogo de plataforma desenvolvido e publicado pela Nintendo para o Super Nintendo Entertainment System. Seu lançamento no Japão foi em agosto de 1995 e em outubro de 1995 nos Estados Unidos. O jogo é uma prequência de Super Mario World, onde o jogador desta vez controla somente o Yoshi, que deve acompanhar Mario ainda bebê através de seis mundos, a fim de reuni-lo com o seu irmão Luigi, que tinha sido sequestrado por capangas de Baby Bowser. O visual do jogo foi desenhado a mão, trazendo um novo estilo à série. Além disso, os gráficos do jogo possuem efeitos especiais feitos pelo microchip Super FX 2, permitindo um visual belo para o jogo. Yoshi's Island recebeu aclamação generalizada da crítica e diversos elogios para a sua estética, som e jogabilidade. O jogo vendeu mais de 4 milhões de cópias em todo mundo, se tornando o sétimo jogo mais vendido do SNES."
             },
             {
                 "cover": "https://images.nintendolife.com/edbf2d7e54fbb/mega-man-x-cover.cover_300x.jpg",
@@ -65,16 +68,18 @@
                 "publisher": "Capcom",
                 "year": 1994,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FMega%20Man%20X%20(U)%20(V1.1).zip?alt=media&token=f50ed4d3-a650-439d-b374-6cc1fd5de7a6",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Mega Man X se passa no século XXII em ano indeterminado, cerca de 100 anos após a série Mega Man original. Um arqueólogo humano chamado Dr. Cain descobre ruínas de uma instalação robótica de pesquisa que por uma vez já foi operada pelo lendário designer de robôs-androides Dr. Thomas Light (o criador do Mega Man)." 
             },
             {
                 "cover": "https://images.nintendolife.com/ec78e25e1da36/donkey-kong-country-2-diddys-kong-quest-cover.cover_large.jpg",
                 "review": "https://www.nintendolife.com/games/snes/donkey_kong_country_2_diddys_kong_quest",
-                "title": "Donkey Kong Country 2: Diddys Kong Quest",
+                "title": "Donkey Kong Country 2: Diddy's Kong Quest",
                 "publisher": "Capcom",
                 "year": 1995,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FDonkey%20Kong%20Country%202%20-%20Diddy's%20Kong%20Quest%20(USA)%20(En%2CFr)%20(Rev%201).sfc?alt=media&token=c2820f53-1830-4e97-bab9-36b4ca1e233c",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Donkey Kong Country 2: Diddy's Kong Quest é um jogo eletrônico de plataforma desenvolvido pela Rare e publicado pela Nintendo em novembro de 1995 para o Super Nintendo Entertainment System. É o segundo jogo da série Donkey Kong Country. A história gira em torno de Diddy Kong e sua namorada, Dixie Kong, que tentam resgatar Donkey Kong depois de ser sequestrado pelo vilão King K. Rool. O jogo se passa em Crocodile Isle, em que há oito mundos de ambientes diferentes, num total de 47 fases. Diddy's Kong Quest utiliza a mesma tecnologia gráfica de Donkey Kong Country, que apresenta o uso de imagens pré-renderizadas em modelos 3D." 
             },
             {
                 "cover": "https://images.nintendolife.com/94e6caab1fe8c/earthbound-cover.cover_large.jpg",
@@ -83,7 +88,8 @@
                 "publisher": "Nintendo",
                 "year": 1995,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FEarthBound.zip?alt=media&token=05b8d084-7d4e-4f4b-ad2b-74e41c26b5a6",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"A trama se passa na cidade de Onett, no ano de 199X. Ness, um garoto normal que, depois de um meteoro cair quase do lado de sua casa, conhece nas redondezas do meteoro Buzz Buzz, um inseto de vários anos no futuro que o mandou para uma jornada para acabar com Giygas, a representação de todo o mal no mundo." 
             },
             {
                 "cover": "https://images.nintendolife.com/15515aacacdda/super-mario-all-stars-cover.cover_large.jpg",
@@ -92,7 +98,8 @@
                 "publisher": "Nintendo",
                 "year": 1993,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20All-Stars.zip?alt=media&token=0e12bdc7-2014-42c6-939e-49667a175c47",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Super Mario All-Stars é uma compilação de quatro jogos eletrônicos da série Mario originalmente lançados para Nintendo Entertainment System (NES) e seu complemento Family Computer Disk System: Super Mario Bros., Super Mario Bros.: The Lost Levels, Super Mario Bros 2, e Super Mario Bros 3. Adicionalmente, um jogo bônus de dois jogadores, baseado em Mario Bros, pode ser acessado de Super Mario Bros 3. Os jogos são remakes fiéis, apresentando as premissas originais e design de nível intactos. São jogos de plataforma 2D de rolagem lateral onde o jogador controla o encanador italiano Mario e seu irmão Luigi por meio de mundos temáticos. Eles saltam entre plataformas, evitam inimigos e obstáculos inanimados, encontram segredos escondidos (como warp zones e videiras verticais) e coletam power-ups como o cogumelo e a Estrela da Invencibilidade." 
             },
             {
                 "cover": "https://images.nintendolife.com/84048de2b576e/donkey-kong-country-cover.cover_large.jpg",
@@ -101,7 +108,8 @@
                 "publisher": "Nintendo",
                 "year": 1994,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FDonkey%20Kong%20Country%20(U)%20(V1.2)%20%5B!%5D.zip?alt=media&token=4bd02a64-a74a-4804-84fe-58dca905c99d",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Donkey Kong Country é um jogo de plataforma em 2D desenvolvido pela Rare e publicado pela Nintendo para o Super Nintendo Entertainment System. Estrelando o personagem Donkey Kong, o jogo se passa em Donkey Kong Island onde é explorado seis regiões com ambientes diferentes, e o enredo gira em torno de Donkey Kong e seu sobrinho Diddy Kong, que devem recuperar seu tesouro de bananas roubado por King K. Rool e os Kremlings." 
             },
             {
                 "cover": "https://images.nintendolife.com/4b082ba69a735/super-castlevania-iv-cover.cover_large.jpg",
@@ -110,7 +118,8 @@
                 "publisher": "Konami",
                 "year": 1991,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Castlevania%20IV.zip?alt=media&token=7fc2f803-ceb7-4326-b971-f64c029a898a",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Super Castlevania IV é um jogo de plataforma da série Castlevania, desenvolvido e publicado pela Konami no Japão e América do Norte em 1991, e na Europa em 1992. Foi o primeiro jogo da série lançado para Super Nintendo Entertainment System, posteriormente recebendo conversões para o SNES Classic Edition e Virtual Console. A história é uma re-apresentação de Simon Belmont na série, primeiramente feita no Castlevania (1986). Apesar de ser um remake do original, possui fases modificadas e inovadoras, algumas trazendo áreas de fora do castelo, gráficos de 16-bit com o Mode 7 do SNES, e trilha sonora consistindo principalmente de novas músicas, mas incluindo também vários remixes de músicas anteriores da série. Foi recebido com aclamação crítica e considerado em várias publicações como um dos melhores jogos de todos os tempos." 
             },
             {
                 "cover": "https://images.nintendolife.com/c53da2422aa1d/street-fighter-ii-turbo-hyper-fighting-cover.cover_large.jpg",
@@ -119,7 +128,8 @@
                 "publisher": "Capcom",
                 "year": 1993,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Street%20Fighter%20II%20-%20The%20New%20Challengers%20(U).zip?alt=media&token=f5a96024-b566-4bb0-b804-a1fbdd5e9365",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Street Fighter II: Hyper Fighting , lançado no Japão como Street Fighter II ′ Turbo , é um jogo de luta competitivolançado para os fliperamas pela Capcom em 1992 . É o terceiro jogo da Street Fighter II sub-série de Street Fighter jogos seguintes Street Fighter II: Champion Edition . Lançado menos de um ano após a edição anterior, Hyper Fighting introduziu uma velocidade de jogo mais rápida e novos movimentos especiais para certos personagens, bem como mais refinamento para o equilíbrio do personagem.Hyper Fighting é o último jogo de arcade da série Street Fighter II que usa o hardware original do sistema CP . Ele foi distribuído como um kit de atualização projetado para ser instalado nas placas de circuito impresso da Champion Edition . O próximo jogo, Super Street Fighter II , usa o sucessor do Sistema CP , o Sistema CP II ." 
             },
             {
                 "cover": "https://images.nintendolife.com/4f79434c4ef05/secret-of-mana-cover.cover_large.jpg",
@@ -128,7 +138,8 @@
                 "publisher": "Square Enix",
                 "year": 1993,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSecret%20of%20Mana.zip?alt=media&token=d5add176-4cae-4541-b5f8-2bd080545263",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Secret of Mana é o segundo jogo da série Seiken Densetsu lançado pela Squaresoft, publicado nos Estados Unidos com o nome Secret of Mana, é um jogo eletrônico de RPG lançado para o console Super Nintendo em 1993. Situado em um universo de alta fantasia, o jogo segue três heróis que tentam evitar um império de conquistar o mundo com o poder de uma antiga fortaleza voadora de guerra, e várias vezes são confrontados por Thanatos, um feiticeiro maligno. Secret of Mana traz sistema de batalhas em tempo real, se diferenciando de RPGs contemporâneos da época onde o sistema baseado em turnos ganhava cada vez mais popularidade, sendo assim considerado por muitos o melhor jogo da série Mana. O jogo foi dirigido e desenhado por Koichi Ishii, programado principalmente por Nasir Gebelli e produzido pelo veterano designer da Square de Hiromichi Tanaka." 
             },
             {
                 "cover": "https://images.nintendolife.com/ebdeb9adf637e/goof-troop-cover.cover_large.jpg",
@@ -137,7 +148,8 @@
                 "publisher": "Capcom",
                 "year": 1993,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FGoof%20Troop%20(USA).sfc?alt=media&token=43742719-cf21-4b0c-be39-9b23d21b0e0c",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Goof Troop é um jogo de ação-aventura e puzzles desenvolvido pela Capcom e lançado em 1993 na América do Norte e Europa e em 1994 no Japão. O jogo é baseado na série de mesmo nome. Antes de começar a jogar o jogador pode escolher entre ser Max ou Pateta no modo single player. Caso o jogador escolha o modo multiplayer, ele poderá escolher qual personagem cada jogador irá controlar. Foi um dos primeiros games projetados por Shinji Mikami, que dirigiu Resident Evil em 1996." 
             },
             {
                 "cover": "https://images.nintendolife.com/3ab327b4ebd66/kirby-super-star-cover.cover_large.jpg",
@@ -146,7 +158,8 @@
                 "publisher": "Capcom",
                 "year": 1996,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FKirby%20Super%20Star.zip?alt=media&token=89ce534a-a818-40ac-b111-b9a011f62fc7",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Kirby Super Star é uma série de jogos eletrônicos de ação e plataforma desenvolvida pela HAL Laboratory e publicada pela Nintendo. A série gira em torno das aventuras do jovem, rosado herói alien titular chamado Kirby enquanto ele luta para salvar seu lar no distante planeta de Pop Star de diversas ameaças. A maioria dos jogos na série são jogos de plataforma de rolagem lateral com elementos de beat 'em up e solução de quebra-cabeças. Kirby possui a habilidade de inalar inimigos e objetos com sua boca, cuspindo-os como um projétil ou comendo-os. Se ele comer certas coisas, ele pode ganhar os poderes ou propriedades daquele objeto, seja uma nova arma ou habilidade, denominada Habilidade de Cópia (Copy Ability). A série tem a intenção de ser de fácil acesso mesmo para pessoas pouco familiarizadas com jogos de ação, ao mesmo tempo oferecendo profundidade e desafios adicionais para jogadores mais experientes. A série Kirby inclui um total de mais de vinte jogos, tendo vendido mais de 34 milhões de unidades mundialmente, colocando-a na lista das 50 franquias de jogos eletrônicos mais vendidas de todos os tempos." 
             },
             {
                 "cover": "https://images.nintendolife.com/aaedf62e2e897/sunset-riders-cover.cover_large.jpg",
@@ -155,7 +168,8 @@
                 "publisher": "Konami",
                 "year": 1993,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSunset%20Riders.zip?alt=media&token=a3060f02-2e62-42e6-8ca9-b3bdf5cc3115",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Sunset Riders é um jogo de faroeste em que quatro caçadores de recompensas percorrem o Velho Oeste dos Estados Unidos em busca dos mais terríveis foras-da-lei. No começo de cada fase, é mostrado ao jogador um cartaz com o nome do bandido a ser eliminado, o valor da recompensa e a famosa frase: Procurado vivo ou morto( Wanted dead or alive em inglês). O jogo possui oito fases. Conforme o jogador vai avançando, as fases vão se tornando mais difíceis e as recompensas maiores. Cada fase representa uma parte dos Estados Unidos, da primeira fase na costa oeste, indo a ultima na costa leste." 
             },
             {
                 "cover": "https://images.nintendolife.com/b8e7818cbd043/super-mario-kart-cover.cover_large.jpg",
@@ -164,7 +178,8 @@
                 "publisher": "Nintendo",
                 "year": 1992,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FSuper%20Mario%20Kart.zip?alt=media&token=1f16e4d2-4017-49e5-a6df-122160129383",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Em Mario Kart, os jogadores competem em corridas de kart, controlando um dos personagens da franquia Mario. Uma das características da série é o uso de vários power-ups, itens obtidos nas chamadas Item Boxes (? Panels em Super Mario Kart) encontradas nas pistas. Geralmente, os itens recebidos são aleatórios, embora sejam influenciados pela atual posição do jogador na corrida. Os últimos colocados, por exemplo, recebem itens mais poderosos, enquanto o líder recebe pequenos itens defensivos. Conforme o progresso da série, cada novo jogo introduziu novos elementos, como novos itens e personagens jogáveis." 
             },
             {
                 "cover": "https://images.nintendolife.com/e1c0ed4af4f36/final-fight-3-cover.cover_large.jpg",
@@ -173,7 +188,8 @@
                 "publisher": "Capcom",
                 "year": 1996,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FFinal%20Fight%203.sfc?alt=media&token=04926b2b-b439-4a5b-8d4b-9e53fdfa7349",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Final Fight 3 é um jogo de luta, no estilo beat 'em up, lançado em 1995 pela empresa japonesa Capcom exclusivamente para o Super Nintendo. É o terceiro jogo da série Final Fight e como seu predecessor, Final Fight 2, não foi lançado anteriormente na versão arcade.A história de Final Fight 3 se passa um tempo após os acontecimentos de Final Fight 2, onde a Mad Gear foi finalmente aniquilada. Para infelicidade do prefeitão Haggar, com a queda da Mad Gear uma outra gang criminosa resolveu dominar as ruas de Metro City: a famigerada Skull Cross Gang." 
             },
             {
                 "cover": "https://s2.glbimg.com/pXVkrXbT5rBCyKv68VzvXb5UrKM=/0x0:913x579/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/l/A/zPe6OzRnitN3F1rd77Gw/captura-de-tela-2020-04-24-as-10.06.52.png",
@@ -182,7 +198,8 @@
                 "publisher": "Kemco",
                 "year": 1992,
                 "rom_url":"https://firebasestorage.googleapis.com/v0/b/vhroms-7417c.appspot.com/o/roms%2Fnintendo%2Fsnes%2FTop%20Gear%202.zip?alt=media&token=f17f5f2e-92f7-4bc7-a7b5-31acf09796e6",
-                "rating": 0 
+                "rating": 0,
+                "resenha":"Top Gear 2 é a continuação do jogo Top Gear para o consoles SNES/Super Famicon. Ele foi lançado em agosto de 1993, pela Kemco para o SNES, e em 24 de Maio de 1994 para o Sega Genesis e Amiga. O jogo foi desenvolvido pela Gremlin Interactive e publicado pela Kemco para o SNES, e pela Vic Tokai para o Sega Genesis e Amiga. Com corridas velozes, desafiadoras e uma trilha sonora maravilhosa — com direito a versões brasileiras extremamente exóticas —, o primeiro Top Gear foi um dos maiores sucessos das locadoras no Brasil na primeira metade da década de 1990, assim como nos lares de milhares de jogadores mundo a fora." 
             }
         ],
     

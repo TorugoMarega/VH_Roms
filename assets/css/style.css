@@ -6,6 +6,7 @@ html {
     scroll-behavior: smooth;
     filter:saturate(1.2) contrast(1) brightness(1) ;
   }
+  
 a, header img, header li, #btn-mobile, #btn-mobile span, #pageMap, #pageMap li, #btnPageMap i{
     cursor: pointer,default;
 }
@@ -165,7 +166,7 @@ body {
 
 /* ------------------------------------------------------CABECALHO--------------------------------- */
 #logo{
-    height: 120px;
+    height: 100px;
     transition: ease-in-out .3s;
 } 
 
@@ -180,11 +181,11 @@ header{
     left: auto;
     top: auto; 
     transition: .3s;
-    padding: 15px 10px;
+    padding: 10px 10px;
     transform: translateZ(0px);
     z-index: 1000;
     font-family: "Vibur", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 header nav {
@@ -262,7 +263,7 @@ header nav a{
         display: block;
         position: absolute;
         width: 100%;
-        top: 90px;
+        top: 40px;
         background: #383838;
         height: 0px;
         transition: .6s;
@@ -339,7 +340,7 @@ header nav a{
 }
 
 .conteudo{
-    margin-top: 220px;
+    margin-top: 150px;
 /*     background: rgb(68, 68, 68);  */
     padding: 80px;
     margin-left: 10px;
@@ -356,8 +357,8 @@ header nav a{
 
     background-color:none;
     border-radius: 5px;
-    width:30px;
-    height: 50px;
+    width:26px;
+    height: 32px;
     margin:0;
     padding: 0;
     left: 0;
@@ -374,10 +375,10 @@ header nav a{
     position: fixed;
     margin: 0;
     z-index: 1000;
-    width: 230px;
+    width: 236px;
     transition: ease .3s; 
     margin-top:40vh;
-    left: -230px;
+    left: -236px;
 }
 
 #pageMap{
@@ -403,7 +404,7 @@ header nav a{
 }
 
 #boxPageMap:hover{
-    left: 30px; 
+    left: 26px; 
     transition: ease .3s; 
 }
 #btnPageMap:hover{

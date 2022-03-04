@@ -45,15 +45,14 @@ function getCardNintendoSort() {
           <p>Ano:${databaseRoms[i].year}</p>
           <div class="caixaPlay">
           <a href="${databaseRoms[i].review}"><button><i class="fas fa-info-circle"></i> Info</button></a>
-          <a title="${databaseRoms[i].title}" name="${databaseRoms[i].cover}" href="${databaseRoms[i].rom_url}"  onclick="sessionStorageRomRef(this); return false;"><button class="play"><i class="fas fa-gamepad icon"></i> Play</button></a>
-          <input onclick="setLike()" type="checkbox" name="likeCheck_${i}" id="likeCheck_${i}" class="likeCheck">
+          <a aria-details="${databaseRoms[i].cover}" id="id_${i}" title="${databaseRoms[i].title}" name="${databaseRoms[i].resenha}" href="${databaseRoms[i].rom_url}" onclick="sessionStorageRomRef(this); return false;"><button class="play"><i class="fas fa-gamepad icon"></i> Play</button></a>
+          <input type="checkbox" name="likeCheck" id="likeCheck_${i}" class="likeCheck">
           <label for="likeCheck_${i}" class="likeLabel">
-              <div><i class="fas fa-heart"></i>${databaseRoms[i].rating}/5</div>
-          </label> 
+          <div><i class="fas fa-heart"></i>${databaseRoms[i].rating}/5</div>
+          </label>
           </div>            
-    </div> 
-  `
-  
+          </div> 
+    `
   
         allCardsNintendo += cardNintendo;
         catalogoNintendo.innerHTML = allCardsNintendo

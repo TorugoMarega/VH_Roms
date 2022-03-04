@@ -357,16 +357,149 @@ padding-bottom: 20px;
 }
 
 /* ---------------------------PAG-EMULADOR--------------------------------- */
+.conteudoPlay{
+    padding: 100px;
+}
 
 .gameTitle{
     margin-bottom: 40px;
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     transition: ease-in-out .2s;
-    padding-bottom:11px;
+    padding-bottom:40px;
     border-bottom: rgb(200, 200, 200) 3px solid;
 }
 
 .boxEmulator{
+    padding: 100px;
     padding-bottom: 40px;
+}
+
+#resenhaBox{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    background: rgba(63, 63, 63, 0.315);
+    margin-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+}
+#resenha{
+    text-align: justify;
+    width: 50%;
+    line-height: 1.8em;
+}
+
+#resenha h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#marginBorder{
+    border: 1px solid rgba(255, 255, 255, 0.376);
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.376);
+}
+
+@media (min-width: 0px) and (max-width: 800px){
+    #resenhaBox{
+        flex-direction: column;
+    }
+    #resenha{
+        width: 100%;
+    }
+    #marginBorder{
+        height: 1px;
+        width: 70%;
+        background: rgba(255, 255, 255, 0.178);
+        border: 1px solid rgba(255, 255, 255, 0.376);
+        margin-bottom: 30px;
+    }
+    .boxConteudo{
+        margin-left: 0px;
+        margin-right: 0px;
+    
+
+    }  
+    .boxEmulator{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+    #resenhaBox{
+        flex-direction: column;
+
+    }
+    #resenha{
+        width: 100%;
+    }
+    #marginBorder{
+        height: 1px;
+        width: 70%;
+        background: rgba(255, 255, 255, 0.178);
+        border: 1px solid rgba(255, 255, 255, 0.376);
+        margin-bottom: 30px;
+    }    
+}
+
+@media (min-width: 1280px) and (max-width: 1700px){
+    #marginBorder{
+        height: 250px;
+    }
+}
+
+#boxLike{
+    height: 100%;
+}
+
+#boxLike h3{
+    font-size: 18px;
+    text-align: center;
+}
+
+#boxLike p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#boxLike div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+#boxLike div label i{
+
+    padding: 5px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#boxLike div label{
+    padding: 7px;
+    border: 1px solid #fff;
+    background: #CA3174;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    transition: ease-in-out .3s;
+}
+
+
+#boxLike label:hover{
+transform: scale(1.1);
+}
+
+#boxLike input{
+    display: none;
 }
